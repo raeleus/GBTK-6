@@ -53,9 +53,8 @@ public class LoadScreen extends JamScreen {
                     public boolean act(float delta) {
                         return MathUtils.isEqual(progressBar.getVisualPercent(), 1f);
                     }
-                }, Actions.fadeOut(1f), Actions.run(runnable), Actions.run(() -> {
-                    core.transition(new SplashScreen());
-                })));
+                }, Actions.delay(3f), Actions.run(runnable), Actions.run(() -> core.setScreen(new FakeUnloadScreen()))));
+//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new AdsScreen()))));
             }
         }
     }

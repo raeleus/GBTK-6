@@ -11,7 +11,7 @@
 						"clazz": "com.badlogic.gdx.scenes.scene2d.ui.Label",
 						"name": "default"
 					},
-					"text": "CLICK HERE TO PLAY",
+					"text": "ASSET ERROR, CLICK TO RELOAD",
 					"textAlignment": 8,
 					"ellipsis": false,
 					"ellipsisString": "...",

@@ -1,0 +1,85 @@
+{
+"skeleton": { "hash": "0jXW0Tlyf8s", "spine": "4.0.02", "width": 1024, "height": 576, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "bg",
+		"parent": "root",
+		"length": 374.06,
+		"rotation": 0.15,
+		"x": 549.8,
+		"y": 300.94,
+		"scaleX": 0.9489,
+		"scaleY": 0.9489
+	}
+],
+"slots": [
+	{ "name": "template", "bone": "root", "color": "636363ff" },
+	{ "name": "clip", "bone": "root", "attachment": "clip" },
+	{ "name": "bg", "bone": "bg", "attachment": "game/nvidia-2-bg" },
+	{ "name": "window", "bone": "root", "attachment": "game/nvidia-2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg": {
+				"game/nvidia-2-bg": {
+					"x": -53.98,
+					"y": 5,
+					"scaleX": 1.2684,
+					"scaleY": 1.2684,
+					"rotation": -0.15,
+					"width": 935,
+					"height": 624
+				}
+			},
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "bg",
+					"vertexCount": 7,
+					"vertices": [ 504.33, 83.12, 103.01, 80.89, 106.31, 294.99, 107.09, 506.96, 508.82, 510.39, 906.02, 512.03, 903.76, 90.59 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"window": {
+				"game/nvidia-2": { "x": 504.09, "y": 296.56, "width": 805, "height": 433 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"bg": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 1.5, "color": "686868ff" }
+				]
+			}
+		},
+		"bones": {
+			"bg": {
+				"scale": [
+					{
+						"x": 1.36,
+						"y": 1.36,
+						"curve": [ 0, 1.056, 2, 0.735, 0, 1.059, 2, 0.735 ]
+					},
+					{ "time": 3, "x": 0.735, "y": 0.735 }
+				]
+			}
+		}
+	},
+	"standing": {
+		"bones": {
+			"bg": {
+				"scale": [
+					{ "x": 1.36, "y": 1.36 }
+				]
+			}
+		}
+	}
+}
+}
