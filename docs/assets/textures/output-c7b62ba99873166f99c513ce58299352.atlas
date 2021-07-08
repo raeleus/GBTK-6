@@ -1,0 +1,177 @@
+output.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+game/nvidia-0
+bounds:3324,3252,730,461
+game/nvidia-1
+bounds:2518,3367,804,433
+game/nvidia-1-bg
+bounds:1785,3545,731,402
+offsets:0,1,731,403
+game/nvidia-1-man
+bounds:2866,3802,252,463
+offsets:9,1,267,468
+rotate:90
+game/nvidia-2
+bounds:1690,3110,805,433
+game/nvidia-2-bg
+bounds:744,2556,935,624
+game/nvidia-3-bg
+bounds:2497,2847,884,403
+offsets:0,0,884,404
+game/nvidia-3080
+bounds:1,2653,741,527
+game/nvidia-fwho
+bounds:3383,2683,567,567
+game/nvidia-infinty
+bounds:3331,3715,339,480
+rotate:90
+game/update-01
+bounds:2675,3914,140,189
+rotate:90
+game/update-02
+bounds:1,3701,1782,148
+game/update-03
+bounds:1,3851,1439,146
+game/update-04
+bounds:1,3452,1679,247
+game/update-05
+bounds:2148,3949,525,105
+game/update-06
+bounds:1,3182,1687,268
+game/update-07
+bounds:1572,3984,574,70
+game/update-circle
+bounds:4,4041,13,14
+rotate:90
+game/update-taskbar
+bounds:189,3999,1381,55
+game/update-weather
+bounds:20,4021,167,33
+game/white
+bounds:1,4053,1,1
+
+output_2.png
+size:2048,2048
+filter:Linear,Linear
+Raeleus Solidus
+bounds:1,821,504,72
+RaeleusFuturius
+bounds:1118,1611,506,114
+RaeleusScriptius-Regular
+bounds:984,887,506,63
+ads-progressbar
+bounds:679,1380,579,78
+ads-progressbar-back
+bounds:679,1460,579,78
+blue-screen (1)
+bounds:1626,1829,351,209
+blue-screen (2)
+bounds:1626,1618,351,209
+blue-screen (3)
+bounds:1393,962,351,209
+blue-screen (4)
+bounds:631,935,351,209
+blue-screen (5)
+bounds:507,684,351,209
+blue-screen (6)
+bounds:860,494,351,209
+blue-screen (7)
+bounds:442,473,351,209
+blue-screen (8)
+bounds:1,428,351,209
+dialog-bg
+bounds:1545,1236,448,215
+dialog-button
+bounds:673,1903,65,26
+dialog-button-disabled
+bounds:673,1987,65,26
+dialog-button-over
+bounds:673,1959,65,26
+dialog-button-pressed
+bounds:673,1931,65,26
+find hot single (1)
+bounds:1,639,439,180
+find hot single (2)
+bounds:860,705,439,180
+game plays itself (1)
+bounds:1,1640,334,373
+game plays itself (2)
+bounds:337,1640,334,373
+game-plays (1)
+bounds:1,940,351,187
+game-plays (2)
+bounds:1213,478,351,187
+loading1 (1)
+bounds:984,995,292,149
+loading1 (2)
+bounds:1746,1028,292,149
+mz3-button
+bounds:673,1795,60,52
+mz3-button-over
+bounds:673,1849,60,52
+mz3-logo
+bounds:1545,1453,482,156
+nvidia
+bounds:1080,1173,504,34
+nvidia-button-normal
+bounds:1118,1561,132,48
+nvidia-button-over
+bounds:1746,978,132,48
+nvidia-button-pressed
+bounds:354,1009,132,48
+nvidia-download
+bounds:679,1571,54,72
+nvidia-pause
+bounds:714,1684,20,18
+nvidia-progress-bar
+bounds:631,1146,760,23
+nvidia-progress-bar-filled
+bounds:1,2015,760,23
+nvidia-progress-bar-small
+bounds:1080,1212,169,12
+nvidia-progress-bar-small-filled
+bounds:1080,1226,169,12
+nvidia-stop
+bounds:732,1738,18,19
+nvidia-tile
+bounds:714,1704,30,30
+pooh
+bounds:1260,1209,283,400
+shrek
+bounds:763,1540,353,498
+solidus100
+bounds:1118,1727,506,311
+solidus30
+bounds:1301,667,504,51
+white
+bounds:673,1642,1,1
+wise
+bounds:1,895,505,38
+wise-button
+bounds:354,1059,173,68
+wise-button-over
+bounds:1080,1310,173,68
+wise-button-pressed
+bounds:1080,1240,173,68
+wise-eula
+bounds:1568,720,301,240
+wise-icon
+bounds:673,1736,57,57
+wise-line
+bounds:984,952,582,8
+wise-progress
+bounds:1586,1179,328,55
+wise-radio
+bounds:732,1759,22,16
+wise-radio-pressed
+bounds:732,1777,22,16
+wise-scroll
+bounds:631,1171,46,467
+wise-scroll-knob
+bounds:673,1645,39,89
+wise-window
+bounds:1,1129,628,509
+yoda
+bounds:679,1183,399,195
