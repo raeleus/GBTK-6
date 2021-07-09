@@ -4,12 +4,9 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.MathUtils;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
-import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.utils.Align;
@@ -17,6 +14,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.ray3k.template.*;
 
+import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
 import static com.ray3k.template.Core.*;
 import static com.ray3k.template.Resources.*;
 
@@ -39,8 +37,9 @@ public class AdsScreen extends JamScreen {
         stage.addActor(root);
         Gdx.input.setInputProcessor(stage);
         
-        var label = new Label("Please click the ad to boost loading speed!", skin, "wise");
+        var label = new Label("Please click the ad to boost loading speed!", skin, "minigame-title");
         root.add(label);
+        label.addAction(sequence(alpha(0), delay(3f), fadeIn(.5f)));
         
         var drawables = new Array<>(new Drawable[] {
                 skin.getDrawable("blue-screen"),
@@ -50,6 +49,17 @@ public class AdsScreen extends JamScreen {
                 skin.getDrawable("loading1"),
                 skin.getDrawable("pooh"),
                 skin.getDrawable("shrek"),
+                skin.getDrawable("monke-antivirus"),
+                skin.getDrawable("monke-facxe"),
+                skin.getDrawable("nuke"),
+                skin.getDrawable("pooping-monke"),
+                skin.getDrawable("sexy-sob"),
+                skin.getDrawable("shrek-character"),
+                skin.getDrawable("special-offer"),
+                skin.getDrawable("virus"),
+                skin.getDrawable("warning"),
+                skin.getDrawable("winner"),
+                skin.getDrawable("mail"),
                 skin.getDrawable("yoda")});
         
         root.row();
@@ -83,6 +93,7 @@ public class AdsScreen extends JamScreen {
         label.setAlignment(Align.center);
         stack.add(label);
         
+        bgm_minigame2.setLooping(true);
         bgm_minigame2.play();
     }
     

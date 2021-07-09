@@ -18,6 +18,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.ray3k.template.*;
 
@@ -29,7 +30,7 @@ public class FakeLoadScreen extends JamScreen {
     private Stage stage;
     
     public FakeLoadScreen() {
-        stage = new Stage(new ScreenViewport(), batch);
+        stage = new Stage(new FitViewport(1024, 576), batch);
         skin = createSkin();
     
         createUI();

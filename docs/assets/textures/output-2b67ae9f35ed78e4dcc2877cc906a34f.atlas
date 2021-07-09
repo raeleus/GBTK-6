@@ -1,0 +1,281 @@
+output.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+game/dragon-1
+bounds:1442,3550,146,237
+offsets:11,6,168,246
+rotate:90
+game/dragon-2
+bounds:3152,3216,144,235
+offsets:12,7,168,246
+rotate:90
+game/drug-drug
+bounds:4043,3861,49,65
+game/drug-map
+bounds:3417,2958,633,496
+game/drug-player
+bounds:1682,3862,83,100
+rotate:90
+game/drug-template
+bounds:734,2523,633,496
+game/nvidia-0
+bounds:1630,2681,730,461
+game/nvidia-1
+bounds:3259,2523,804,433
+game/nvidia-1-bg
+bounds:1,2741,731,402
+offsets:0,1,731,403
+game/nvidia-1-man
+bounds:3163,3362,252,463
+offsets:9,1,267,468
+game/nvidia-2
+bounds:2717,2963,805,433
+rotate:90
+game/nvidia-2-bg
+bounds:1780,3144,935,624
+game/nvidia-3-bg
+bounds:1,3145,884,403
+offsets:0,0,884,404
+game/nvidia-3080
+bounds:887,3021,741,527
+game/nvidia-fwho
+bounds:3474,3456,567,567
+game/nvidia-infinty
+bounds:2362,2662,339,480
+game/tree
+bounds:1682,3668,96,192
+game/update-01
+bounds:3152,3074,140,189
+rotate:90
+game/update-02
+bounds:1,3947,1782,148
+game/update-03
+bounds:1,3550,1439,146
+game/update-04
+bounds:1,3698,1679,247
+game/update-05
+bounds:3152,2547,525,105
+rotate:90
+game/update-06
+bounds:1785,3827,1687,268
+game/update-07
+bounds:3474,4025,574,70
+game/update-circle
+bounds:4043,3846,13,14
+rotate:90
+game/update-taskbar
+bounds:1780,3770,1381,55
+game/update-weather
+bounds:4050,3928,167,33
+rotate:90
+game/white
+bounds:4094,4094,1,1
+
+output_2.png
+size:4096,4096
+filter:Linear,Linear
+Raeleus Solidus
+bounds:1,3049,504,72
+RaeleusFuturius
+bounds:1116,3257,506,114
+RaeleusScriptius-Regular
+bounds:529,3298,506,63
+ads-progressbar
+bounds:588,3737,579,78
+ads-progressbar-back
+bounds:1172,3747,579,78
+blue-screen (1)
+bounds:3734,2709,351,209
+blue-screen (2)
+bounds:2621,2904,351,209
+blue-screen (3)
+bounds:2974,2747,351,209
+blue-screen (4)
+bounds:2621,2693,351,209
+blue-screen (5)
+bounds:3327,2583,351,209
+blue-screen (6)
+bounds:2974,2536,351,209
+blue-screen (7)
+bounds:2621,2482,351,209
+blue-screen (8)
+bounds:3680,2498,351,209
+dialog-bg
+bounds:2809,3281,448,215
+dialog-button
+bounds:3980,3651,65,26
+dialog-button-disabled
+bounds:3913,3679,65,26
+dialog-button-over
+bounds:3980,3679,65,26
+dialog-button-pressed
+bounds:3913,3651,65,26
+drug-cinematic1
+bounds:1759,3762,595,306
+drug-cinematic2
+bounds:2646,3115,438,164
+find hot single (1)
+bounds:3259,3208,439,180
+find hot single (2)
+bounds:2205,3122,439,180
+game plays itself (1)
+bounds:2943,3695,334,373
+game plays itself (2)
+bounds:3680,2123,334,373
+game-plays (1)
+bounds:3327,2394,351,187
+game-plays (2)
+bounds:2974,2347,351,187
+loading1 (1)
+bounds:1902,2175,292,149
+loading1 (2)
+bounds:1608,2088,292,149
+mail (1)
+bounds:507,2799,412,228
+mail (2)
+bounds:1,2766,412,228
+minigame-title
+bounds:529,3029,504,227
+monke-antivirus (1)
+bounds:1753,3388,526,372
+monke-antivirus (2)
+bounds:1169,3373,526,372
+monke-facxe (1)
+bounds:1,3827,877,266
+monke-facxe (3)
+bounds:1,3827,877,266
+monke-facxe (2)
+bounds:880,3827,877,266
+monke-facxe (4)
+bounds:880,3827,877,266
+mz3-button
+bounds:3975,3597,60,52
+mz3-button-over
+bounds:3913,3597,60,52
+mz3-logo
+bounds:3283,3390,482,156
+nuke (1)
+bounds:1,2516,351,248
+nuke (2)
+bounds:1,2266,351,248
+nuke (3)
+bounds:3086,2958,351,248
+nuke (4)
+bounds:3742,2920,351,248
+nvidia
+bounds:3283,3548,504,34
+nvidia-button-normal
+bounds:3913,3807,132,48
+nvidia-button-over
+bounds:3913,3757,132,48
+nvidia-button-pressed
+bounds:3913,3707,132,48
+nvidia-download
+bounds:3972,3523,54,72
+nvidia-pause
+bounds:1697,3709,20,18
+nvidia-progress-bar
+bounds:2521,4070,760,23
+nvidia-progress-bar-filled
+bounds:1759,4070,760,23
+nvidia-progress-bar-small
+bounds:3913,3857,169,12
+nvidia-progress-bar-small-filled
+bounds:3913,3871,169,12
+nvidia-stop
+bounds:1719,3708,18,19
+nvidia-tile
+bounds:2322,3730,30,30
+pooh
+bounds:2333,2133,283,400
+pooping-monke (1)
+bounds:2205,2535,414,585
+pooping-monke (2)
+bounds:1035,2670,414,585
+sexy-sob (1)
+bounds:3767,3170,248,351
+sexy-sob (2)
+bounds:770,2446,248,351
+shrek
+bounds:415,2299,353,498
+shrek-character (1)
+bounds:2354,3522,526,216
+shrek-character (2)
+bounds:2281,3304,526,216
+solidus100
+bounds:1697,3075,506,311
+solidus30
+bounds:1,2996,504,51
+special-offer (1)
+bounds:2356,3740,585,328
+special-offer (2)
+bounds:1,3497,585,328
+virus (1)
+bounds:1746,2866,292,207
+virus (2)
+bounds:1746,2866,292,207
+virus (10)
+bounds:1451,2694,292,207
+virus (11)
+bounds:1745,2657,292,207
+virus (12)
+bounds:1451,2485,292,207
+virus (13)
+bounds:1020,2461,292,207
+virus (14)
+bounds:1745,2448,292,207
+virus (15)
+bounds:1314,2276,292,207
+virus (3)
+bounds:1020,2252,292,207
+virus (4)
+bounds:2039,2326,292,207
+virus (5)
+bounds:2618,2273,292,207
+virus (6)
+bounds:2912,2138,292,207
+virus (7)
+bounds:2618,2064,292,207
+virus (8)
+bounds:1608,2239,292,207
+virus (9)
+bounds:1314,2067,292,207
+warning (1)
+bounds:588,3363,526,372
+warning (2)
+bounds:1,3123,526,372
+white
+bounds:4088,4092,1,1
+winner (1)
+bounds:3439,2794,293,170
+winner (2)
+bounds:1451,2903,293,170
+wise
+bounds:529,3258,505,38
+wise-button
+bounds:3913,3885,173,68
+wise-button-over
+bounds:3913,4025,173,68
+wise-button-pressed
+bounds:3913,3955,173,68
+wise-eula
+bounds:3439,2966,301,240
+wise-icon
+bounds:3913,3538,57,57
+wise-line
+bounds:588,3817,582,8
+wise-progress
+bounds:3327,2337,328,55
+wise-radio
+bounds:1721,3729,22,16
+wise-radio-pressed
+bounds:1697,3729,22,16
+wise-scroll
+bounds:4047,3388,46,467
+wise-scroll-knob
+bounds:2281,3671,39,89
+wise-window
+bounds:3283,3584,628,509
+yoda
+bounds:2882,3498,399,195

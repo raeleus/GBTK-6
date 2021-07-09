@@ -41,6 +41,23 @@ public class Resources {
 
     public static void loadResources(AssetManager assetManager) {
         skin_skin = assetManager.get("skin/skin.json");
+        SpineDragon.skeletonData = assetManager.get("spine/dragon.json");
+        SpineDragon.animationData = assetManager.get("spine/dragon.json-animation");
+        SpineDragon.animationBlaze = SpineDragon.skeletonData.findAnimation("blaze");
+        SpineDragon.animationStand = SpineDragon.skeletonData.findAnimation("stand");
+        SpineDragon.skinDefault = SpineDragon.skeletonData.findSkin("default");
+        SpineDrugDrug.skeletonData = assetManager.get("spine/drug-drug.json");
+        SpineDrugDrug.animationData = assetManager.get("spine/drug-drug.json-animation");
+        SpineDrugDrug.animationAnimation = SpineDrugDrug.skeletonData.findAnimation("animation");
+        SpineDrugDrug.skinDefault = SpineDrugDrug.skeletonData.findSkin("default");
+        SpineDrugMap.skeletonData = assetManager.get("spine/drug-map.json");
+        SpineDrugMap.animationData = assetManager.get("spine/drug-map.json-animation");
+        SpineDrugMap.animationAnimation = SpineDrugMap.skeletonData.findAnimation("animation");
+        SpineDrugMap.skinDefault = SpineDrugMap.skeletonData.findSkin("default");
+        SpineDrugPlayer.skeletonData = assetManager.get("spine/drug-player.json");
+        SpineDrugPlayer.animationData = assetManager.get("spine/drug-player.json-animation");
+        SpineDrugPlayer.animationAnimation = SpineDrugPlayer.skeletonData.findAnimation("animation");
+        SpineDrugPlayer.skinDefault = SpineDrugPlayer.skeletonData.findSkin("default");
         SpineNvidia0.skeletonData = assetManager.get("spine/nvidia-0.json");
         SpineNvidia0.animationData = assetManager.get("spine/nvidia-0.json-animation");
         SpineNvidia0.animation3080 = SpineNvidia0.skeletonData.findAnimation("3080");
@@ -63,6 +80,10 @@ public class Resources {
         SpineNvidia3.animationAnimation = SpineNvidia3.skeletonData.findAnimation("animation");
         SpineNvidia3.animationStanding = SpineNvidia3.skeletonData.findAnimation("standing");
         SpineNvidia3.skinDefault = SpineNvidia3.skeletonData.findSkin("default");
+        SpineTree.skeletonData = assetManager.get("spine/tree.json");
+        SpineTree.animationData = assetManager.get("spine/tree.json-animation");
+        SpineTree.animationAnimation = SpineTree.skeletonData.findAnimation("animation");
+        SpineTree.skinDefault = SpineTree.skeletonData.findSkin("default");
         SpineWindowsHi.skeletonData = assetManager.get("spine/windows-hi.json");
         SpineWindowsHi.animationData = assetManager.get("spine/windows-hi.json-animation");
         SpineWindowsHi.animationAnimation = SpineWindowsHi.skeletonData.findAnimation("animation");
@@ -88,6 +109,48 @@ public class Resources {
         bgm_minigame3 = assetManager.get("bgm/minigame3.mp3");
         bgm_minigame4 = assetManager.get("bgm/minigame4.mp3");
         bgm_war = assetManager.get("bgm/war.mp3");
+    }
+
+    public static class SpineDragon {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationBlaze;
+
+        public static Animation animationStand;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineDrugDrug {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineDrugMap {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineDrugPlayer {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
     }
 
     public static class SpineNvidia0 {
@@ -138,6 +201,16 @@ public class Resources {
         public static Animation animationAnimation;
 
         public static Animation animationStanding;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineTree {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
 
         public static com.esotericsoftware.spine.Skin skinDefault;
     }

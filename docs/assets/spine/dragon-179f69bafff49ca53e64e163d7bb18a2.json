@@ -1,0 +1,49 @@
+{
+"skeleton": {
+	"hash": "sOpjAcvJIxs",
+	"spine": "4.0.03",
+	"x": -86,
+	"y": -5,
+	"width": 168,
+	"height": 246,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/dragon-1", "bone": "root", "attachment": "game/dragon-1" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bbox": {
+				"bbox": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -24.16, 153.72, -22.81, 238.68, 31.79, 237.33, 31.79, 153.04 ]
+				}
+			},
+			"game/dragon-1": {
+				"game/dragon-1": { "x": -2, "y": 118, "width": 168, "height": 246 },
+				"game/dragon-2": { "x": -2, "y": 118, "width": 168, "height": 246 }
+			}
+		}
+	}
+],
+"animations": {
+	"blaze": {
+		"slots": {
+			"game/dragon-1": {
+				"attachment": [
+					{ "name": "game/dragon-2" }
+				]
+			}
+		}
+	},
+	"stand": {}
+}
+}

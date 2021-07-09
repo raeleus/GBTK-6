@@ -15,11 +15,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.ray3k.template.*;
 
 import static com.ray3k.template.Core.*;
-import static com.ray3k.template.JamGame.*;
 
 public class LoadScreen extends JamScreen {
     private ProgressBar progressBar;
@@ -31,7 +30,7 @@ public class LoadScreen extends JamScreen {
     public LoadScreen(Runnable runnable) {
         this.runnable = runnable;
     
-        stage = new Stage(new ScreenViewport(), batch);
+        stage = new Stage(new FitViewport(1024, 576), batch);
         skin = createSkin();
         finishedLoading = false;
     
@@ -54,7 +53,7 @@ public class LoadScreen extends JamScreen {
                         return MathUtils.isEqual(progressBar.getVisualPercent(), 1f);
                     }
                 }, Actions.delay(3f), Actions.run(runnable), Actions.run(() -> core.setScreen(new FakeUnloadScreen()))));
-//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new AdsScreen()))));
+//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new GameDrugScreen()))));
             }
         }
     }
