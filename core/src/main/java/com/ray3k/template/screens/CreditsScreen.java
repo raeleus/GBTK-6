@@ -135,7 +135,7 @@ public class CreditsScreen extends JamScreen {
                             Actions.delay(.5f),
                             Actions.run(() -> {
                                 label.setText("Artwork:\n" +
-                                        "James\n" +
+                                        "\n" +
                                         "benbolt504\n" +
                                         "TanukiWish\n" +
                                         "James: javacakegames.itch.io/\n\n" +
