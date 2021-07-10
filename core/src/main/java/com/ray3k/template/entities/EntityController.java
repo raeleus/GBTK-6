@@ -62,17 +62,27 @@ public class EntityController implements Disposable {
             }
             
             if (entity.item != null && world.hasItem(entity.item)) {
-                var result = world.check(entity.item, entity.x + entity.bboxX, entity.y + entity.bboxY, entity.collisionFilter);
-                entity.projectedCollision(result);
-                world.update(entity.item, result.goalX, result.goalY);
-                for (int i = 0; i < result.projectedCollisions.size(); i++) {
-                    var collision = result.projectedCollisions.get(i);
-                    entity.collisions.add(collision);
+                if (!entity.teleport) {
+                    var result = world.check(entity.item, entity.x + entity.bboxX, entity.y + entity.bboxY, entity.collisionFilter);
+                    entity.projectedCollision(result);
+                    
+                    world.update(entity.item, result.goalX, result.goalY);
+                    for (int i = 0; i < result.projectedCollisions.size(); i++) {
+                        var collision = result.projectedCollisions.get(i);
+                        entity.collisions.add(collision);
+                    }
+                    Rect rect = world.getRect(entity.item);
+                    entity.x = rect.x - entity.bboxX;
+                    entity.y = rect.y - entity.bboxY;
+                } else {
+                    world.update(entity.item, entity.x + entity.bboxX, entity.y + entity.bboxY);
+  
+                    Rect rect = world.getRect(entity.item);
+                    entity.x = rect.x - entity.bboxX;
+                    entity.y = rect.y - entity.bboxY;
                 }
-                Rect rect = world.getRect(entity.item);
-                entity.x = rect.x - entity.bboxX;
-                entity.y = rect.y - entity.bboxY;
             }
+            entity.teleport = false;
             
             entity.act(delta);
         }

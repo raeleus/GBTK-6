@@ -1,7 +1,6 @@
 package com.ray3k.template.screens;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
@@ -20,7 +19,6 @@ import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.ray3k.template.*;
 
 import static com.ray3k.template.Core.*;
@@ -183,7 +181,7 @@ public class FakeLoadScreen2 extends JamScreen {
                             Actions.moveToAligned(512, 318, Align.center, 1f)));
                     break;
                 case 7:
-                    core.setScreen(new AdsScreen());
+                    core.setScreen(new GameAdsScreen());
                     break;
             }
             index++;

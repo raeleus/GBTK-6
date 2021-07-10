@@ -37,10 +37,44 @@ public class Resources {
 
     public static Music bgm_minigame4;
 
+    public static Music bgm_minigame5;
+
     public static Music bgm_war;
 
     public static void loadResources(AssetManager assetManager) {
         skin_skin = assetManager.get("skin/skin.json");
+        SpineAsteroidsAsteroid.skeletonData = assetManager.get("spine/asteroids-asteroid.json");
+        SpineAsteroidsAsteroid.animationData = assetManager.get("spine/asteroids-asteroid.json-animation");
+        SpineAsteroidsAsteroid.animationLarge = SpineAsteroidsAsteroid.skeletonData.findAnimation("large");
+        SpineAsteroidsAsteroid.animationMed = SpineAsteroidsAsteroid.skeletonData.findAnimation("med");
+        SpineAsteroidsAsteroid.animationSmall = SpineAsteroidsAsteroid.skeletonData.findAnimation("small");
+        SpineAsteroidsAsteroid.skinDefault = SpineAsteroidsAsteroid.skeletonData.findSkin("default");
+        SpineAsteroidsBullet.skeletonData = assetManager.get("spine/asteroids-bullet.json");
+        SpineAsteroidsBullet.animationData = assetManager.get("spine/asteroids-bullet.json-animation");
+        SpineAsteroidsBullet.animationAnimation = SpineAsteroidsBullet.skeletonData.findAnimation("animation");
+        SpineAsteroidsBullet.skinDefault = SpineAsteroidsBullet.skeletonData.findSkin("default");
+        SpineAsteroidsPlayer.skeletonData = assetManager.get("spine/asteroids-player.json");
+        SpineAsteroidsPlayer.animationData = assetManager.get("spine/asteroids-player.json-animation");
+        SpineAsteroidsPlayer.animationAnimation = SpineAsteroidsPlayer.skeletonData.findAnimation("animation");
+        SpineAsteroidsPlayer.skinDefault = SpineAsteroidsPlayer.skeletonData.findSkin("default");
+        SpineDonutBg.skeletonData = assetManager.get("spine/donut-bg.json");
+        SpineDonutBg.animationData = assetManager.get("spine/donut-bg.json-animation");
+        SpineDonutBg.animationAnimation = SpineDonutBg.skeletonData.findAnimation("animation");
+        SpineDonutBg.skinDefault = SpineDonutBg.skeletonData.findSkin("default");
+        SpineDonutDonut.skeletonData = assetManager.get("spine/donut-donut.json");
+        SpineDonutDonut.animationData = assetManager.get("spine/donut-donut.json-animation");
+        SpineDonutDonut.animationAnger0 = SpineDonutDonut.skeletonData.findAnimation("anger-0");
+        SpineDonutDonut.animationAnger1 = SpineDonutDonut.skeletonData.findAnimation("anger-1");
+        SpineDonutDonut.animationAnger2 = SpineDonutDonut.skeletonData.findAnimation("anger-2");
+        SpineDonutDonut.animationAnger3 = SpineDonutDonut.skeletonData.findAnimation("anger-3");
+        SpineDonutDonut.animationAnger4 = SpineDonutDonut.skeletonData.findAnimation("anger-4");
+        SpineDonutDonut.animationAnger5 = SpineDonutDonut.skeletonData.findAnimation("anger-5");
+        SpineDonutDonut.animationAnger6 = SpineDonutDonut.skeletonData.findAnimation("anger-6");
+        SpineDonutDonut.skinDefault = SpineDonutDonut.skeletonData.findSkin("default");
+        SpineDonutPackage.skeletonData = assetManager.get("spine/donut-package.json");
+        SpineDonutPackage.animationData = assetManager.get("spine/donut-package.json-animation");
+        SpineDonutPackage.animationAnimation = SpineDonutPackage.skeletonData.findAnimation("animation");
+        SpineDonutPackage.skinDefault = SpineDonutPackage.skeletonData.findSkin("default");
         SpineDragon.skeletonData = assetManager.get("spine/dragon.json");
         SpineDragon.animationData = assetManager.get("spine/dragon.json-animation");
         SpineDragon.animationBlaze = SpineDragon.skeletonData.findAnimation("blaze");
@@ -80,6 +114,11 @@ public class Resources {
         SpineNvidia3.animationAnimation = SpineNvidia3.skeletonData.findAnimation("animation");
         SpineNvidia3.animationStanding = SpineNvidia3.skeletonData.findAnimation("standing");
         SpineNvidia3.skinDefault = SpineNvidia3.skeletonData.findSkin("default");
+        SpineSandBackground.skeletonData = assetManager.get("spine/sand-background.json");
+        SpineSandBackground.animationData = assetManager.get("spine/sand-background.json-animation");
+        SpineSandBackground.animationAsteroids = SpineSandBackground.skeletonData.findAnimation("asteroids");
+        SpineSandBackground.animationInvaders = SpineSandBackground.skeletonData.findAnimation("invaders");
+        SpineSandBackground.skinDefault = SpineSandBackground.skeletonData.findSkin("default");
         SpineTree.skeletonData = assetManager.get("spine/tree.json");
         SpineTree.animationData = assetManager.get("spine/tree.json-animation");
         SpineTree.animationAnimation = SpineTree.skeletonData.findAnimation("animation");
@@ -108,7 +147,84 @@ public class Resources {
         bgm_minigame2 = assetManager.get("bgm/minigame2.mp3");
         bgm_minigame3 = assetManager.get("bgm/minigame3.mp3");
         bgm_minigame4 = assetManager.get("bgm/minigame4.mp3");
+        bgm_minigame5 = assetManager.get("bgm/minigame5.mp3");
         bgm_war = assetManager.get("bgm/war.mp3");
+    }
+
+    public static class SpineAsteroidsAsteroid {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationLarge;
+
+        public static Animation animationMed;
+
+        public static Animation animationSmall;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineAsteroidsBullet {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineAsteroidsPlayer {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineDonutBg {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineDonutDonut {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnger0;
+
+        public static Animation animationAnger1;
+
+        public static Animation animationAnger2;
+
+        public static Animation animationAnger3;
+
+        public static Animation animationAnger4;
+
+        public static Animation animationAnger5;
+
+        public static Animation animationAnger6;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineDonutPackage {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
     }
 
     public static class SpineDragon {
@@ -201,6 +317,18 @@ public class Resources {
         public static Animation animationAnimation;
 
         public static Animation animationStanding;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineSandBackground {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAsteroids;
+
+        public static Animation animationInvaders;
 
         public static com.esotericsoftware.spine.Skin skinDefault;
     }

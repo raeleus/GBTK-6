@@ -1,0 +1,28 @@
+{
+"skeleton": { "hash": "Vfct8LZ1yQQ", "spine": "4.0.03", "width": 1024, "height": 576, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/sand-background", "bone": "root", "attachment": "game/sand-background" },
+	{ "name": "title", "bone": "root", "attachment": "game/asteroids-title" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/sand-background": {
+				"game/sand-background": { "x": 512, "y": 288, "width": 1024, "height": 576 }
+			},
+			"title": {
+				"game/asteroids-title": { "x": 517.89, "y": 519.71, "width": 852, "height": 74 },
+				"game/invaders-title": { "x": 514.93, "y": 498.5, "width": 545, "height": 118 }
+			}
+		}
+	}
+],
+"animations": {
+	"asteroids": {},
+	"invaders": {}
+}
+}

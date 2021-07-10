@@ -1,0 +1,1143 @@
+{
+"com.badlogic.gdx.graphics.g2d.BitmapFont": {
+	"futurius42": {
+		"file": "RaeleusFuturius.fnt"
+	},
+	"minigame-title": {
+		"file": "minigame-title.fnt"
+	},
+	"nvidia": {
+		"file": "nvidia.fnt"
+	},
+	"scriptius30": {
+		"file": "RaeleusScriptius-Regular.fnt"
+	},
+	"solidus100": {
+		"file": "solidus100.fnt"
+	},
+	"solidus30": {
+		"file": "solidus30.fnt"
+	},
+	"solidus43": {
+		"file": "Raeleus Solidus.fnt"
+	},
+	"trivia": {
+		"file": "trivia.fnt"
+	},
+	"wise": {
+		"file": "wise.fnt"
+	}
+},
+"com.badlogic.gdx.graphics.Color": {
+	"black": {
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 1
+	},
+	"blue": {
+		"r": 0.088611126,
+		"g": 0,
+		"b": 1,
+		"a": 1
+	},
+	"gray": {
+		"r": 0.49333337,
+		"g": 0.49333337,
+		"b": 0.49333337,
+		"a": 1
+	},
+	"nvidia": {
+		"r": 0,
+		"g": 0.91764706,
+		"b": 0.12941177,
+		"a": 1
+	},
+	"nvidia-dialog-bg": {
+		"r": 0,
+		"g": 0.17333335,
+		"b": 0.023236308,
+		"a": 0.5800001
+	},
+	"quarter-transparent": {
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 0.27666667
+	},
+	"transparent": {
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 0
+	},
+	"white": {
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 1
+	}
+},
+"com.ray3k.tenpatch.TenPatchDrawable": {
+	"dialog-button-10": {
+		"region": "dialog-button",
+		"horizontalStretchAreas": [ 2, 60 ],
+		"verticalStretchAreas": [ 5, 22 ],
+		"tiling": false,
+		"minWidth": 65,
+		"minHeight": 26,
+		"rightWidth": 8,
+		"leftWidth": 7,
+		"bottomHeight": 5,
+		"topHeight": 4,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"dialog-button-disabled-10": {
+		"region": "dialog-button-disabled",
+		"horizontalStretchAreas": [ 2, 60 ],
+		"verticalStretchAreas": [ 5, 22 ],
+		"tiling": false,
+		"minWidth": 65,
+		"minHeight": 26,
+		"rightWidth": 8,
+		"leftWidth": 7,
+		"bottomHeight": 5,
+		"topHeight": 4,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"dialog-button-over-10": {
+		"region": "dialog-button-over",
+		"horizontalStretchAreas": [ 2, 60 ],
+		"verticalStretchAreas": [ 5, 22 ],
+		"tiling": false,
+		"minWidth": 65,
+		"minHeight": 26,
+		"rightWidth": 8,
+		"leftWidth": 7,
+		"bottomHeight": 5,
+		"topHeight": 4,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"dialog-button-pressed-10": {
+		"region": "dialog-button-pressed",
+		"horizontalStretchAreas": [ 2, 60 ],
+		"verticalStretchAreas": [ 4, 21 ],
+		"tiling": false,
+		"minWidth": 65,
+		"minHeight": 26,
+		"rightWidth": 8,
+		"leftWidth": 7,
+		"bottomHeight": 4,
+		"topHeight": 5,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-button-normal-10": {
+		"region": "nvidia-button-normal",
+		"horizontalStretchAreas": [ 6, 127 ],
+		"verticalStretchAreas": [ 8, 43 ],
+		"tiling": false,
+		"minWidth": 132,
+		"minHeight": 48,
+		"rightWidth": 6,
+		"leftWidth": 8,
+		"bottomHeight": 8,
+		"topHeight": 5,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-button-over-10": {
+		"region": "nvidia-button-over",
+		"horizontalStretchAreas": [ 6, 127 ],
+		"verticalStretchAreas": [ 8, 43 ],
+		"tiling": false,
+		"minWidth": 132,
+		"minHeight": 48,
+		"rightWidth": 6,
+		"leftWidth": 8,
+		"bottomHeight": 8,
+		"topHeight": 5,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-button-pressed-10": {
+		"region": "nvidia-button-pressed",
+		"horizontalStretchAreas": [ 6, 127 ],
+		"verticalStretchAreas": [ 7, 42 ],
+		"tiling": false,
+		"minWidth": 132,
+		"minHeight": 48,
+		"rightWidth": 6,
+		"leftWidth": 8,
+		"bottomHeight": 7,
+		"topHeight": 6,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"dialog-bg-10": {
+		"region": "dialog-bg",
+		"horizontalStretchAreas": [ 73, 435 ],
+		"verticalStretchAreas": [ 67, 102, 160, 174 ],
+		"tiling": false,
+		"minWidth": 448,
+		"minHeight": 215,
+		"rightWidth": 10,
+		"leftWidth": 74,
+		"bottomHeight": 0,
+		"topHeight": 37,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-scroll-10": {
+		"region": "wise-scroll",
+		"horizontalStretchAreas": [ 0, 45 ],
+		"verticalStretchAreas": [ 30, 429 ],
+		"tiling": false,
+		"minWidth": 46,
+		"minHeight": 467,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 27,
+		"topHeight": 34,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-scroll-knob-10": {
+		"region": "wise-scroll-knob",
+		"horizontalStretchAreas": [ 0, 38 ],
+		"verticalStretchAreas": [ 3, 85 ],
+		"tiling": false,
+		"minWidth": 39,
+		"minHeight": 89,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-button-10": {
+		"region": "wise-button",
+		"horizontalStretchAreas": [ 9, 166 ],
+		"verticalStretchAreas": [ 8, 59 ],
+		"tiling": false,
+		"minWidth": 173,
+		"minHeight": 68,
+		"rightWidth": 11,
+		"leftWidth": 11,
+		"bottomHeight": 9,
+		"topHeight": 7,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-button-over-10": {
+		"region": "wise-button-over",
+		"horizontalStretchAreas": [ 9, 166 ],
+		"verticalStretchAreas": [ 8, 59 ],
+		"tiling": false,
+		"minWidth": 173,
+		"minHeight": 68,
+		"rightWidth": 11,
+		"leftWidth": 11,
+		"bottomHeight": 9,
+		"topHeight": 7,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-button-pressed-10": {
+		"region": "wise-button-pressed",
+		"horizontalStretchAreas": [ 9, 166 ],
+		"verticalStretchAreas": [ 7, 58 ],
+		"tiling": false,
+		"minWidth": 173,
+		"minHeight": 68,
+		"rightWidth": 11,
+		"leftWidth": 11,
+		"bottomHeight": 8,
+		"topHeight": 8,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-bg": {
+		"region": "white",
+		"horizontalStretchAreas": [ 0, 0 ],
+		"verticalStretchAreas": [ 0, 0 ],
+		"tiling": false,
+		"minWidth": 1,
+		"minHeight": 1,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"color1": "black",
+		"color2": "blue",
+		"color3": "blue",
+		"color4": "black",
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"mz3-button-over-10": {
+		"region": "mz3-button-over",
+		"horizontalStretchAreas": [ 44, 59 ],
+		"verticalStretchAreas": [ 0, 0, 51, 51 ],
+		"tiling": false,
+		"minWidth": 60,
+		"minHeight": 52,
+		"rightWidth": 0,
+		"leftWidth": 59,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"mz3-button-10": {
+		"region": "mz3-button",
+		"horizontalStretchAreas": [ 44, 59 ],
+		"verticalStretchAreas": [ 0, 0, 51, 51 ],
+		"tiling": false,
+		"minWidth": 60,
+		"minHeight": 52,
+		"rightWidth": 0,
+		"leftWidth": 59,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-window-10": {
+		"region": "wise-window",
+		"horizontalStretchAreas": [ 11, 614 ],
+		"verticalStretchAreas": [ 13, 463 ],
+		"tiling": false,
+		"minWidth": 628,
+		"minHeight": 509,
+		"rightWidth": 15,
+		"leftWidth": 16,
+		"bottomHeight": 14,
+		"topHeight": 43,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-eula-10": {
+		"region": "wise-eula",
+		"horizontalStretchAreas": [ 11, 285 ],
+		"verticalStretchAreas": [ 8, 222 ],
+		"tiling": false,
+		"minWidth": 301,
+		"minHeight": 240,
+		"rightWidth": 16,
+		"leftWidth": 11,
+		"bottomHeight": 11,
+		"topHeight": 15,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-line-10": {
+		"region": "wise-line",
+		"horizontalStretchAreas": [ 0, 581 ],
+		"verticalStretchAreas": [ 0, 7 ],
+		"tiling": false,
+		"minWidth": 582,
+		"minHeight": 8,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-button-disabled-10": {
+		"region": "nvidia-button-normal",
+		"color": "quarter-transparent",
+		"horizontalStretchAreas": [ 6, 127 ],
+		"verticalStretchAreas": [ 8, 43 ],
+		"tiling": false,
+		"minWidth": 132,
+		"minHeight": 48,
+		"rightWidth": 6,
+		"leftWidth": 8,
+		"bottomHeight": 8,
+		"topHeight": 5,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-dialog-bg": {
+		"region": "white",
+		"color": "nvidia-dialog-bg",
+		"horizontalStretchAreas": [ 0, 0 ],
+		"verticalStretchAreas": [ 0, 0 ],
+		"tiling": false,
+		"minWidth": 1,
+		"minHeight": 1,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"blue-screen": {
+		"region": "blue-screen (1)",
+		"horizontalStretchAreas": [ 0, 350 ],
+		"verticalStretchAreas": [ 0, 208 ],
+		"tiling": false,
+		"minWidth": 351,
+		"minHeight": 209,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.31,
+		"regions": [
+			"blue-screen (1)",
+			"blue-screen (2)",
+			"blue-screen (3)",
+			"blue-screen (4)",
+			"blue-screen (5)",
+			"blue-screen (6)",
+			"blue-screen (7)",
+			"blue-screen (8)"
+		],
+		"playMode": 2
+	},
+	"find-hot-single": {
+		"region": "find hot single (1)",
+		"horizontalStretchAreas": [ 0, 438 ],
+		"verticalStretchAreas": [ 0, 179 ],
+		"tiling": false,
+		"minWidth": 439,
+		"minHeight": 180,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.43,
+		"regions": [
+			"find hot single (1)",
+			"find hot single (2)"
+		],
+		"playMode": 2
+	},
+	"game-plays-itself": {
+		"region": "game plays itself (1)",
+		"horizontalStretchAreas": [ 0, 333 ],
+		"verticalStretchAreas": [ 0, 372 ],
+		"tiling": false,
+		"minWidth": 334,
+		"minHeight": 373,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"game plays itself (1)",
+			"game plays itself (2)"
+		],
+		"playMode": 2
+	},
+	"game-plays": {
+		"region": "game-plays (1)",
+		"horizontalStretchAreas": [ 0, 350 ],
+		"verticalStretchAreas": [ 0, 186 ],
+		"tiling": false,
+		"minWidth": 351,
+		"minHeight": 187,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"game-plays (1)",
+			"game-plays (2)"
+		],
+		"playMode": 2
+	},
+	"loading1": {
+		"region": "loading1 (1)",
+		"horizontalStretchAreas": [ 0, 291 ],
+		"verticalStretchAreas": [ 0, 148 ],
+		"tiling": false,
+		"minWidth": 292,
+		"minHeight": 149,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"loading1 (1)",
+			"loading1 (2)"
+		],
+		"playMode": 2
+	},
+	"ads-progressbar-10": {
+		"region": "ads-progressbar",
+		"horizontalStretchAreas": [ 0, 578 ],
+		"verticalStretchAreas": [ 0, 77 ],
+		"tiling": true,
+		"minWidth": 0,
+		"minHeight": 78,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-progress-bar-small-filled-10": {
+		"region": "nvidia-progress-bar-small-filled",
+		"horizontalStretchAreas": [ 0, 168 ],
+		"verticalStretchAreas": [ 0, 11 ],
+		"tiling": true,
+		"minWidth": 0,
+		"minHeight": 12,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-progress-bar-filled-10": {
+		"region": "nvidia-progress-bar-filled",
+		"horizontalStretchAreas": [ 0, 759 ],
+		"verticalStretchAreas": [ 0, 22 ],
+		"tiling": true,
+		"minWidth": 0,
+		"minHeight": 23,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-progress-10": {
+		"region": "wise-progress",
+		"horizontalStretchAreas": [ 0, 327 ],
+		"verticalStretchAreas": [ 0, 54 ],
+		"tiling": true,
+		"minWidth": 0,
+		"minHeight": 55,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"wise-progress-background-10": {
+		"region": "wise-progress",
+		"color": "transparent",
+		"horizontalStretchAreas": [ 0, 327 ],
+		"verticalStretchAreas": [ 0, 54 ],
+		"tiling": true,
+		"minWidth": 328,
+		"minHeight": 55,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"nvidia-tile-tiled": {
+		"region": "nvidia-tile",
+		"horizontalStretchAreas": [ 0, 29 ],
+		"verticalStretchAreas": [ 0, 29 ],
+		"tiling": true,
+		"minWidth": 30,
+		"minHeight": 30,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"monke-antivirus": {
+		"region": "monke-antivirus (1)",
+		"horizontalStretchAreas": [ 0, 525 ],
+		"verticalStretchAreas": [ 0, 371 ],
+		"tiling": false,
+		"minWidth": 526,
+		"minHeight": 372,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"monke-antivirus (1)",
+			"monke-antivirus (2)"
+		],
+		"playMode": 2
+	},
+	"monke-facxe": {
+		"region": "monke-facxe (1)",
+		"horizontalStretchAreas": [ 0, 876 ],
+		"verticalStretchAreas": [ 0, 265 ],
+		"tiling": false,
+		"minWidth": 877,
+		"minHeight": 266,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"monke-facxe (1)",
+			"monke-facxe (2)",
+			"monke-facxe (3)",
+			"monke-facxe (4)"
+		],
+		"playMode": 2
+	},
+	"nuke": {
+		"region": "nuke (1)",
+		"horizontalStretchAreas": [ 0, 350 ],
+		"verticalStretchAreas": [ 0, 247 ],
+		"tiling": false,
+		"minWidth": 351,
+		"minHeight": 248,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"nuke (1)",
+			"nuke (2)",
+			"nuke (3)",
+			"nuke (4)"
+		],
+		"playMode": 2
+	},
+	"pooping-monke": {
+		"region": "pooping-monke (1)",
+		"horizontalStretchAreas": [ 0, 413 ],
+		"verticalStretchAreas": [ 0, 584 ],
+		"tiling": false,
+		"minWidth": 414,
+		"minHeight": 585,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"pooping-monke (1)",
+			"pooping-monke (2)"
+		],
+		"playMode": 2
+	},
+	"sexy-sob": {
+		"region": "sexy-sob (1)",
+		"horizontalStretchAreas": [ 0, 247 ],
+		"verticalStretchAreas": [ 0, 350 ],
+		"tiling": false,
+		"minWidth": 248,
+		"minHeight": 351,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"sexy-sob (1)",
+			"sexy-sob (2)"
+		],
+		"playMode": 2
+	},
+	"shrek-character": {
+		"region": "shrek-character (1)",
+		"horizontalStretchAreas": [ 0, 525 ],
+		"verticalStretchAreas": [ 0, 215 ],
+		"tiling": false,
+		"minWidth": 526,
+		"minHeight": 216,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"shrek-character (1)",
+			"shrek-character (2)"
+		],
+		"playMode": 2
+	},
+	"special-offer": {
+		"region": "special-offer (1)",
+		"horizontalStretchAreas": [ 0, 584 ],
+		"verticalStretchAreas": [ 0, 327 ],
+		"tiling": false,
+		"minWidth": 585,
+		"minHeight": 328,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"special-offer (1)",
+			"special-offer (2)"
+		],
+		"playMode": 2
+	},
+	"virus": {
+		"region": "virus (1)",
+		"horizontalStretchAreas": [ 0, 291 ],
+		"verticalStretchAreas": [ 0, 206 ],
+		"tiling": false,
+		"minWidth": 292,
+		"minHeight": 207,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.3,
+		"regions": [
+			"virus (1)",
+			"virus (2)",
+			"virus (3)",
+			"virus (4)",
+			"virus (5)",
+			"virus (6)",
+			"virus (7)",
+			"virus (8)",
+			"virus (9)",
+			"virus (10)",
+			"virus (11)",
+			"virus (13)",
+			"virus (14)",
+			"virus (15)"
+		],
+		"playMode": 2
+	},
+	"warning": {
+		"region": "warning (1)",
+		"horizontalStretchAreas": [ 0, 525 ],
+		"verticalStretchAreas": [ 0, 371 ],
+		"tiling": false,
+		"minWidth": 526,
+		"minHeight": 372,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"warning (1)",
+			"warning (2)"
+		],
+		"playMode": 2
+	},
+	"winner": {
+		"region": "winner (1)",
+		"horizontalStretchAreas": [ 0, 292 ],
+		"verticalStretchAreas": [ 0, 169 ],
+		"tiling": false,
+		"minWidth": 293,
+		"minHeight": 170,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"winner (1)",
+			"winner (2)"
+		],
+		"playMode": 2
+	},
+	"mail": {
+		"region": "mail (1)",
+		"horizontalStretchAreas": [ 0, 411 ],
+		"verticalStretchAreas": [ 0, 227 ],
+		"tiling": false,
+		"minWidth": 412,
+		"minHeight": 228,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.4,
+		"regions": [
+			"mail (1)",
+			"mail (2)"
+		],
+		"playMode": 2
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
+	"default": {
+		"checkboxOn": "wise-radio-pressed",
+		"checkboxOff": "wise-radio",
+		"font": "scriptius30",
+		"fontColor": "black",
+		"pressedOffsetY": -1
+	},
+	"wise-radio": {
+		"checkboxOn": "wise-radio-pressed",
+		"checkboxOff": "wise-radio",
+		"font": "scriptius30",
+		"fontColor": "black",
+		"pressedOffsetY": -1
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle": {
+	"default": {
+		"imageUp": "nvidia-download"
+	},
+	"nvidia-download": {
+		"imageUp": "nvidia-download",
+		"pressedOffsetY": -1
+	},
+	"nvidia-stop": {
+		"imageUp": "nvidia-stop",
+		"pressedOffsetY": -1
+	},
+	"nvidia-pause": {
+		"imageUp": "nvidia-pause",
+		"pressedOffsetY": -1
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+	"default": {
+		"font": "scriptius30"
+	},
+	"wise": {
+		"font": "wise",
+		"fontColor": "black"
+	},
+	"nvidia": {
+		"font": "nvidia",
+		"fontColor": "black"
+	},
+	"nvidia-title": {
+		"font": "solidus100",
+		"fontColor": "nvidia"
+	},
+	"nvidia-large": {
+		"font": "solidus43",
+		"fontColor": "nvidia"
+	},
+	"nvidia-white": {
+		"font": "nvidia",
+		"fontColor": "white"
+	},
+	"nvidia-medium": {
+		"font": "solidus30",
+		"fontColor": "nvidia"
+	},
+	"minigame-progress": {
+		"font": "solidus30",
+		"fontColor": "black"
+	},
+	"minigame-title": {
+		"font": "minigame-title",
+		"fontColor": "black"
+	},
+	"trivia": {
+		"font": "trivia",
+		"fontColor": "black"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle": {
+	"default-horizontal": {
+		"background": "nvidia-progress-bar",
+		"knobBefore": "nvidia-progress-bar-filled-10"
+	},
+	"default-vertical": {
+		"background": "nvidia-progress-bar",
+		"knobBefore": "nvidia-progress-bar-filled-10"
+	},
+	"nvidia": {
+		"background": "nvidia-progress-bar",
+		"knobBefore": "nvidia-progress-bar-filled-10"
+	},
+	"nvidia-small": {
+		"background": "nvidia-progress-bar-small",
+		"knobBefore": "nvidia-progress-bar-small-filled-10"
+	},
+	"wise": {
+		"background": "wise-progress-background-10",
+		"knobBefore": "wise-progress-10"
+	},
+	"ads": {
+		"background": "ads-progressbar-back",
+		"knobBefore": "ads-progressbar-10"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle": {
+	"default": {
+		"vScroll": "wise-scroll-10"
+	},
+	"wise": {
+		"background": "wise-eula-10",
+		"vScroll": "wise-scroll-10",
+		"vScrollKnob": "wise-scroll-knob-10"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+	"default": {
+		"font": "solidus43",
+		"fontColor": "black",
+		"up": "wise-button-10"
+	},
+	"wise": {
+		"font": "scriptius30",
+		"fontColor": "black",
+		"up": "wise-button-10",
+		"down": "wise-button-pressed-10",
+		"over": "wise-button-over-10"
+	},
+	"dialog": {
+		"font": "scriptius30",
+		"fontColor": "black",
+		"disabledFontColor": "gray",
+		"up": "dialog-button-10",
+		"down": "dialog-button-pressed-10",
+		"over": "dialog-button-over-10",
+		"disabled": "dialog-button-disabled-10"
+	},
+	"nvidia": {
+		"font": "scriptius30",
+		"disabledFontColor": "quarter-transparent",
+		"up": "nvidia-button-normal-10",
+		"down": "nvidia-button-pressed-10",
+		"over": "nvidia-button-over-10",
+		"disabled": "nvidia-button-disabled-10"
+	},
+	"mz3": {
+		"font": "futurius42",
+		"up": "mz3-button-10",
+		"over": "mz3-button-over-10"
+	},
+	"trivia": {
+		"font": "trivia",
+		"fontColor": "black",
+		"disabledFontColor": "gray",
+		"up": "dialog-button-10",
+		"down": "dialog-button-pressed-10",
+		"over": "dialog-button-over-10",
+		"disabled": "dialog-button-disabled-10"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
+	"default": {
+		"label": "default"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {
+	"default": {
+		"background": "dialog-bg-10",
+		"titleFont": "wise"
+	}
+}
+}

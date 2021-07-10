@@ -1,0 +1,6 @@
+bgm/minigame1.mp3
+bgm/minigame2.mp3
+bgm/minigame3.mp3
+bgm/minigame4.mp3
+bgm/minigame5.mp3
+bgm/war.mp3

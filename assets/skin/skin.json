@@ -21,6 +21,9 @@
 	"solidus43": {
 		"file": "Raeleus Solidus.fnt"
 	},
+	"trivia": {
+		"file": "trivia.fnt"
+	},
 	"wise": {
 		"file": "wise.fnt"
 	}
@@ -1039,6 +1042,10 @@
 	"minigame-title": {
 		"font": "minigame-title",
 		"fontColor": "black"
+	},
+	"trivia": {
+		"font": "trivia",
+		"fontColor": "black"
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle": {
@@ -1111,6 +1118,15 @@
 		"font": "futurius42",
 		"up": "mz3-button-10",
 		"over": "mz3-button-over-10"
+	},
+	"trivia": {
+		"font": "trivia",
+		"fontColor": "black",
+		"disabledFontColor": "gray",
+		"up": "dialog-button-10",
+		"down": "dialog-button-pressed-10",
+		"over": "dialog-button-over-10",
+		"disabled": "dialog-button-disabled-10"
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {

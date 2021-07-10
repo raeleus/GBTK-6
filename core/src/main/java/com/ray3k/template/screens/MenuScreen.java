@@ -94,7 +94,7 @@ public class MenuScreen extends JamScreen {
                             protected void result(Object object) {
                                 Gdx.input.setInputProcessor(null);
                                 bgm_war.stop();
-                                core.transition(new WindowsUpdateScreen());
+                                core.transition(new GameDonutScreen());
                             }
                         };
     

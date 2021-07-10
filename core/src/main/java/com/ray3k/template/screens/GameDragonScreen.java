@@ -65,7 +65,7 @@ public class GameDragonScreen extends JamScreen {
         Gdx.input.setInputProcessor(inputMultiplexer);
         
         entityController.clear();
-        var dragon = new DragonEntity();
+        var dragon = new DragonPlayerEntity();
         entityController.add(dragon);
         dragon.setPosition(100, -175);
         
@@ -79,7 +79,7 @@ public class GameDragonScreen extends JamScreen {
         counter -= delta;
         if (counter < 0) {
             counter = .75f;
-            var tree = new TreeEntity();
+            var tree = new DragonTreeEntity();
             entityController.add(tree);
             tree.setPosition(1124, MathUtils.random(-200f, 576f));
         }
@@ -89,7 +89,7 @@ public class GameDragonScreen extends JamScreen {
             if (respawnTimer <= 0) {
                 respawnTimer = 0;
                 entityController.clear();
-                var dragon = new DragonEntity();
+                var dragon = new DragonPlayerEntity();
                 entityController.add(dragon);
                 dragon.setPosition(100, -175);
             }

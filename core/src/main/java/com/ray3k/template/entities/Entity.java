@@ -33,6 +33,7 @@ public abstract class Entity {
     public boolean visible;
     public float depth;
     public Color collisionBoxDebugColor;
+    public boolean teleport;
     
     public abstract void create();
     public abstract void actBefore(float delta);
@@ -193,5 +194,9 @@ public abstract class Entity {
     
     public float getCollisionBoxCenterY() {
         return y + bboxY + bboxHeight / 2;
+    }
+    
+    public void teleportCollisionBox(boolean teleport) {
+        this.teleport = teleport;
     }
 }

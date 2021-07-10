@@ -1,3 +1,9 @@
+spine/asteroids-asteroid.json
+spine/asteroids-bullet.json
+spine/asteroids-player.json
+spine/donut-bg.json
+spine/donut-donut.json
+spine/donut-package.json
 spine/dragon.json
 spine/drug-drug.json
 spine/drug-map.json
@@ -6,6 +12,7 @@ spine/nvidia-0.json
 spine/nvidia-1.json
 spine/nvidia-2.json
 spine/nvidia-3.json
+spine/sand-background.json
 spine/tree.json
 spine/windows-hi.json
 spine/windows-update.json

@@ -1,13 +1,9 @@
 package com.ray3k.template.entities;
 
-import com.badlogic.gdx.math.Vector2;
 import com.dongbat.jbump.Collisions;
 import com.dongbat.jbump.Response.Result;
-import com.esotericsoftware.spine.SkeletonBounds;
 import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
 import com.ray3k.template.*;
-
-import java.lang.reflect.Array;
 
 import static com.ray3k.template.Resources.SpineDrugMap.*;
 import static com.ray3k.template.screens.GameDrugScreen.*;
@@ -23,7 +19,7 @@ public class DrugBackgroundEntity extends Entity {
         var bones = skeleton.getRootBone().getChildren();
         for (var bone : bones) {
             if (bone.getData().getName().equals("player")) {
-                var player = new PlayerEntity();
+                var player = new DrugPlayerEntity();
                 Core.entityController.add(player);
                 player.setPosition(bone.getWorldX(), bone.getWorldY());
                 Core.world.move(player.item, player.x, player.y, Core.nullCollisionFilter);

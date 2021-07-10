@@ -1,0 +1,311 @@
+{
+"skeleton": {
+	"hash": "0/aaHfBE2Bw",
+	"spine": "4.0.03",
+	"x": -325.48,
+	"y": -125.5,
+	"width": 444.54,
+	"height": 209.26,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/donut-donut", "parent": "root", "length": 230.09, "rotation": 1.4, "x": -9.97, "y": -20.69 },
+	{ "name": "game/donut-angry", "parent": "game/donut-donut", "length": 77.43, "rotation": -0.57, "x": 87.93, "y": 61.83 },
+	{ "name": "game/donut-chomper", "parent": "root", "length": 117.32, "rotation": 12.71, "x": -281.51, "y": -74.54 }
+],
+"slots": [
+	{ "name": "game/donut-donut", "bone": "game/donut-donut", "attachment": "game/donut-bitten" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" },
+	{ "name": "game/donut-eyebrows", "bone": "game/donut-donut", "attachment": "game/donut-eyebrows" },
+	{ "name": "game/donut-angry", "bone": "game/donut-angry", "attachment": "game/donut-angry" },
+	{ "name": "game/donut-chomper", "bone": "game/donut-chomper", "attachment": "game/donut-chomper" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bbox": {
+				"bbox": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -120.44, -78.45, -119.53, 54.8, 107.41, 55.26, 106.96, -76.63 ]
+				}
+			},
+			"game/donut-angry": {
+				"game/donut-angry": { "x": 3.12, "y": -0.29, "rotation": -0.83, "width": 79, "height": 74 }
+			},
+			"game/donut-chomper": {
+				"game/donut-chomper": { "x": 43.28, "y": 23.6, "rotation": -12.71, "width": 162, "height": 167 }
+			},
+			"game/donut-donut": {
+				"game/donut-bitten": { "x": 0.28, "y": 8.58, "rotation": -1.4, "width": 232, "height": 148 },
+				"game/donut-donut": { "x": 0.28, "y": 8.58, "rotation": -1.4, "width": 232, "height": 150 }
+			},
+			"game/donut-eyebrows": {
+				"game/donut-eyebrows": { "x": -27.5, "y": 69.14, "rotation": -1.4, "width": 190, "height": 72 }
+			}
+		}
+	}
+],
+"animations": {
+	"anger-0": {
+		"slots": {
+			"game/donut-angry": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-chomper": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-donut": {
+				"attachment": [
+					{ "name": "game/donut-donut" }
+				]
+			},
+			"game/donut-eyebrows": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"anger-1": {
+		"slots": {
+			"game/donut-angry": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-chomper": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-donut": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ff0101ff" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "game/donut-donut" }
+				]
+			},
+			"game/donut-eyebrows": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"anger-2": {
+		"slots": {
+			"game/donut-angry": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-chomper": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-donut": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ff0101ff" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "game/donut-donut" }
+				]
+			},
+			"game/donut-eyebrows": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"anger-3": {
+		"slots": {
+			"game/donut-angry": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-chomper": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-donut": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ff0101ff" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "game/donut-donut" }
+				]
+			},
+			"game/donut-eyebrows": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"game/donut-donut": {
+				"translate": [
+					{ "x": -3.12 },
+					{ "time": 0.0667, "x": 11.43 },
+					{ "time": 0.1333, "x": -3.12 },
+					{ "time": 0.2, "x": 11.43 },
+					{ "time": 0.2667, "x": -3.12 },
+					{ "time": 0.3333, "x": 11.43 },
+					{ "time": 0.4, "x": -3.12 }
+				]
+			}
+		}
+	},
+	"anger-4": {
+		"slots": {
+			"game/donut-chomper": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-donut": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ff0101ff" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "game/donut-donut" }
+				]
+			}
+		},
+		"bones": {
+			"game/donut-donut": {
+				"translate": [
+					{ "x": -3.12 },
+					{ "time": 0.0667, "x": 11.43 },
+					{ "time": 0.1333, "x": -3.12 },
+					{ "time": 0.2, "x": 11.43 },
+					{ "time": 0.2667, "x": -3.12 },
+					{ "time": 0.3333, "x": 11.43 },
+					{ "time": 0.4, "x": -3.12 }
+				]
+			},
+			"game/donut-angry": {
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 0.519, "y": 0.519 },
+					{ "time": 0.1333 },
+					{ "time": 0.2, "x": 0.519, "y": 0.519 },
+					{ "time": 0.2667 },
+					{ "time": 0.3333, "x": 0.519, "y": 0.519 },
+					{ "time": 0.4 }
+				]
+			}
+		}
+	},
+	"anger-5": {
+		"slots": {
+			"game/donut-chomper": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-donut": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ff0101ff" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "game/donut-donut" }
+				]
+			}
+		},
+		"bones": {
+			"game/donut-donut": {
+				"translate": [
+					{ "x": -35.32 },
+					{ "time": 0.0667, "x": 41.55 },
+					{ "time": 0.1333, "x": -35.32 },
+					{ "time": 0.2, "x": 41.55 },
+					{ "time": 0.2667, "x": -35.32 },
+					{ "time": 0.3333, "x": 41.55 },
+					{ "time": 0.4, "x": -35.32 }
+				]
+			},
+			"game/donut-angry": {
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 0.519, "y": 0.519 },
+					{ "time": 0.1333 },
+					{ "time": 0.2, "x": 0.519, "y": 0.519 },
+					{ "time": 0.2667 },
+					{ "time": 0.3333, "x": 0.519, "y": 0.519 },
+					{ "time": 0.4 }
+				]
+			}
+		}
+	},
+	"anger-6": {
+		"slots": {
+			"game/donut-angry": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/donut-chomper": {
+				"rgba": [
+					{ "time": 0.7, "color": "fffffffe" },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"game/donut-donut": {
+				"attachment": [
+					{ "name": "game/donut-donut" },
+					{ "time": 0.7, "name": "game/donut-bitten" }
+				]
+			},
+			"game/donut-eyebrows": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"game/donut-chomper": {
+				"rotate": [
+					{ "time": 0.5667 },
+					{ "time": 0.7, "value": -21.92 },
+					{ "time": 0.8667, "value": -35.6 }
+				],
+				"translate": [
+					{ "x": -100.75, "y": -54.01 },
+					{ "time": 0.1333, "x": -78.94, "y": 44.66 },
+					{ "time": 0.3, "x": -5.19, "y": 96.6 },
+					{ "time": 0.4333, "x": 54.01, "y": 64.4 },
+					{ "time": 0.5667, "x": 131.91, "y": 12.46 },
+					{ "time": 0.8667, "x": 128.8, "y": -45.7 },
+					{ "time": 1, "x": 136.07, "y": -125.68 }
+				]
+			}
+		}
+	}
+}
+}

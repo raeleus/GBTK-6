@@ -1,0 +1,39 @@
+{
+"skeleton": {
+	"hash": "moZHATQJtFw",
+	"spine": "4.0.03",
+	"x": -43.7,
+	"y": -47.23,
+	"width": 84,
+	"height": 92,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/asteroids-player", "bone": "root", "attachment": "game/asteroids-player" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bbox": {
+				"bbox": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -17.3, -17.23, -18.9, 20.37, 17.1, 20.37, 16.3, -18.03 ]
+				}
+			},
+			"game/asteroids-player": {
+				"game/asteroids-player": { "x": -1.7, "y": -1.23, "width": 84, "height": 92 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

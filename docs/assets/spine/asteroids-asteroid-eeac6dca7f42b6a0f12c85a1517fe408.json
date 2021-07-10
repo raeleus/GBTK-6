@@ -1,0 +1,58 @@
+{
+"skeleton": {
+	"hash": "On894wRomv0",
+	"spine": "4.0.03",
+	"x": -82.5,
+	"y": -66.83,
+	"width": 164,
+	"height": 144,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/asteroid-rock", "parent": "root", "length": 109.6, "rotation": -0.42, "x": 0.3, "y": 1.97 }
+],
+"slots": [
+	{ "name": "game/asteroid-rock", "bone": "game/asteroid-rock", "attachment": "game/asteroid-rock" },
+	{ "name": "bbox", "bone": "game/asteroid-rock", "attachment": "bbox" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bbox": {
+				"bbox": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -73.13, -64.54, -68.45, 61.1, 75.54, 63.75, 74.87, -64.26 ]
+				}
+			},
+			"game/asteroid-rock": {
+				"game/asteroid-rock": { "x": -0.82, "y": 3.19, "rotation": 0.42, "width": 164, "height": 144 }
+			}
+		}
+	}
+],
+"animations": {
+	"large": {},
+	"med": {
+		"bones": {
+			"game/asteroid-rock": {
+				"scale": [
+					{ "x": 0.342, "y": 0.342 }
+				]
+			}
+		}
+	},
+	"small": {
+		"bones": {
+			"game/asteroid-rock": {
+				"scale": [
+					{ "x": 0.133, "y": 0.133 }
+				]
+			}
+		}
+	}
+}
+}

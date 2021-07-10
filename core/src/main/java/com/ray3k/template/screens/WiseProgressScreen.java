@@ -48,7 +48,7 @@ public class WiseProgressScreen extends JamScreen {
             public boolean act(float delta) {
                 return MathUtils.isEqual(progressBar.getVisualPercent(), 1f);
             }
-        }, Actions.delay(5f), Actions.run(() -> core.transition(new MenuScreen()))));
+        }, Actions.delay(5f), Actions.run(() -> core.transition(new GameAsteroidsScreen()))));
     }
     
     @Override
