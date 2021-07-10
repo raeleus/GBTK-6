@@ -7,29 +7,41 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.viewport.FillViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
+import com.esotericsoftware.spine.AnimationState;
+import com.esotericsoftware.spine.Skeleton;
 import com.ray3k.template.*;
 
 import static com.ray3k.template.Core.*;
 import static com.ray3k.template.JamGame.*;
 import static com.ray3k.template.Resources.*;
+import static com.ray3k.template.Resources.SpineMenuLoading.*;
 
 public class MenuScreen extends JamScreen {
     private Stage stage;
     private final static Color BG_COLOR = new Color(Color.BLACK);
     public static int counter;
+    private SpineDrawable spineDrawable;
     
     @Override
     public void show() {
         super.show();
+    
+        Skeleton skeleton = new Skeleton(skeletonData);
+        AnimationState animationState = new AnimationState(animationData);
+        spineDrawable = new SpineDrawable(skeletonRenderer, skeleton, animationState);
+        spineDrawable.getAnimationState().setAnimation(0, animationAnimation, true);
         
-        stage = new Stage(new ScreenViewport(), batch);
+        stage = new Stage(new FillViewport(1024, 576), batch);
         Gdx.input.setInputProcessor(stage);
     
         sceneBuilder.build(stage, skin, Gdx.files.internal("menus/main.json"));
@@ -134,14 +146,53 @@ public class MenuScreen extends JamScreen {
         TextButton textButton = stage.getRoot().findActor("play1");
         textButton.addListener(sndChangeListener);
         textButton.addListener(changeListener);
+        if (counter == 0) {
+            textButton.setTouchable(Touchable.disabled);
+            textButton.setColor(1, 1, 1, 0);
+            textButton.addAction(Actions.sequence(
+                    Actions.delay(46),
+                    Actions.fadeIn(2f),
+                    Actions.touchable(Touchable.enabled)
+            ));
+        }
     
         textButton = stage.getRoot().findActor("play2");
         textButton.addListener(sndChangeListener);
         textButton.addListener(changeListener);
+        if (counter == 0) {
+            textButton.setTouchable(Touchable.disabled);
+            textButton.setColor(1, 1, 1, 0);
+            textButton.addAction(Actions.sequence(
+                    Actions.delay(47),
+                    Actions.fadeIn(2f),
+                    Actions.touchable(Touchable.enabled)
+            ));
+        }
     
         textButton = stage.getRoot().findActor("play3");
         textButton.addListener(sndChangeListener);
         textButton.addListener(changeListener);
+        if (counter == 0) {
+            textButton.setTouchable(Touchable.disabled);
+            textButton.setColor(1, 1, 1, 0);
+            textButton.addAction(Actions.sequence(
+                    Actions.delay(48),
+                    Actions.fadeIn(2f),
+                    Actions.touchable(Touchable.enabled)
+            ));
+        }
+        
+        if (counter == 0) {
+            image = new Image(spineDrawable);
+            image.pack();
+            stage.addActor(image);
+            image.setPosition(512, 100, Align.bottom);
+            image.addAction(Actions.sequence(
+                    Actions.delay(45),
+                    Actions.run(() -> spineDrawable.getAnimationState().setAnimation(0, animationHide, false)),
+                    Actions.removeActor()
+            ));
+        }
         
         bgm_war.setLooping(true);
         bgm_war.play();
@@ -150,6 +201,7 @@ public class MenuScreen extends JamScreen {
     @Override
     public void act(float delta) {
         stage.act(delta);
+        spineDrawable.update(delta);
     }
     
     @Override

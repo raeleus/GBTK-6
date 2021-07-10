@@ -9,6 +9,7 @@ import com.dongbat.jbump.Response.Result;
 import com.ray3k.template.*;
 import com.ray3k.template.screens.*;
 
+import static com.ray3k.template.Resources.*;
 import static com.ray3k.template.Resources.SpineAsteroidsPlayer.*;
 import static com.ray3k.template.screens.GameAsteroidsScreen.*;
 
@@ -38,6 +39,7 @@ public class AsteroidsPlayerEntity extends Entity {
             skeleton.getRootBone().setRotation(rotation);
     
             if (bulletTimer < 0) {
+                sfx_boom.play();
                 var bullet = new AsteroidsBulletEntity();
                 Core.entityController.add(bullet);
                 bullet.setMotion(500f, rotation);
@@ -78,6 +80,7 @@ public class AsteroidsPlayerEntity extends Entity {
     @Override
     public void collision(Collisions collisions) {
         for (int i = 0; i < collisions.size(); i++) {
+            sfx_explosion.play();
             var collision = collisions.get(i);
             var asteroid = (AsteroidsAsteroidEntity) collision.other.userData;
             asteroid.destroy = true;

@@ -84,7 +84,10 @@ public class GameTriviaScreen extends JamScreen {
                             table.row();
                             var textButton = new TextButton("Click to Begin", skin, "trivia");
                             table.add(textButton);
-                            Listeners.change(textButton,() -> loadTable(table));
+                            Listeners.change(textButton,() -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 1:
                             label = new Label("What is the multiplicative inverse of 6 modulo 666?", skin, "trivia");
@@ -98,6 +101,7 @@ public class GameTriviaScreen extends JamScreen {
                             var textButton1 = new TextButton("1", skin, "trivia");
                             table.add(textButton1);
                             Listeners.change(textButton1, () -> {
+                                sfx_uhuh.play();
                                 textButton1.setText("wrong");
                                 textButton1.setDisabled(true);
                                 buttonsClicked++;
@@ -108,6 +112,7 @@ public class GameTriviaScreen extends JamScreen {
                             var textButton2 = new TextButton("6", skin, "trivia");
                             table.add(textButton2);
                             Listeners.change(textButton2, () -> {
+                                sfx_uhuh.play();
                                 textButton2.setText("wrong");
                                 textButton2.setDisabled(true);
                                 buttonsClicked++;
@@ -118,6 +123,7 @@ public class GameTriviaScreen extends JamScreen {
                             var textButton3 = new TextButton("111", skin, "trivia");
                             table.add(textButton3);
                             Listeners.change(textButton3, () -> {
+                                sfx_uhuh.play();
                                 textButton3.setText("wrong");
                                 textButton3.setDisabled(true);
                                 buttonsClicked++;
@@ -128,6 +134,7 @@ public class GameTriviaScreen extends JamScreen {
                             var textButton4 = new TextButton("777", skin, "trivia");
                             table.add(textButton4);
                             Listeners.change(textButton4, () -> {
+                                sfx_uhuh.play();
                                 textButton4.setText("wrong");
                                 textButton4.setDisabled(true);
                                 buttonsClicked++;
@@ -138,7 +145,10 @@ public class GameTriviaScreen extends JamScreen {
                             var image = new Image(skin, "trivia-find1");
                             table.add(image);
                             image.setTouchable(Touchable.enabled);
-                            Listeners.click(image, () -> loadTable(table));
+                            Listeners.click(image, () -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 3:
                             label = new Label("What is the derivative of the Weierstrass function when x is 1.5?", skin, "trivia");
@@ -152,6 +162,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton1 = new TextButton("Infinity", skin, "trivia");
                             table.add(textButton1);
                             Listeners.change(textButton1, () -> {
+                                sfx_uhuh.play();
                                 textButton1.setText("wrong");
                                 textButton1.setDisabled(true);
                                 buttonsClicked++;
@@ -162,6 +173,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton2 = new TextButton("Negative Infinity", skin, "trivia");
                             table.add(textButton2);
                             Listeners.change(textButton2, () -> {
+                                sfx_uhuh.play();
                                 textButton2.setText("wrong");
                                 textButton2.setDisabled(true);
                                 buttonsClicked++;
@@ -172,6 +184,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton3 = new TextButton("i^2", skin, "trivia");
                             table.add(textButton3);
                             Listeners.change(textButton3, () -> {
+                                sfx_uhuh.play();
                                 textButton3.setText("wrong");
                                 textButton3.setDisabled(true);
                                 buttonsClicked++;
@@ -182,6 +195,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton4 = new TextButton("no u", skin, "trivia");
                             table.add(textButton4);
                             Listeners.change(textButton4, () -> {
+                                sfx_uhuh.play();
                                 textButton4.setText("wrong");
                                 textButton4.setDisabled(true);
                                 buttonsClicked++;
@@ -192,7 +206,10 @@ public class GameTriviaScreen extends JamScreen {
                             image = new Image(skin, "trivia-find2");
                             table.add(image);
                             image.setTouchable(Touchable.enabled);
-                            Listeners.click(image, () -> loadTable(table));
+                            Listeners.click(image, () -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 5:
                             label = new Label("Who discovered calculus?", skin, "trivia");
@@ -204,6 +221,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton1 = new TextButton("Newton", skin, "trivia");
                             table.add(textButton1);
                             Listeners.change(textButton1, () -> {
+                                sfx_uhuh.play();
                                 textButton1.setText("wrong");
                                 textButton1.setDisabled(true);
                                 choseNewton = true;
@@ -214,6 +232,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton2 = new TextButton("Leibniz", skin, "trivia");
                             table.add(textButton2);
                             Listeners.change(textButton2, () -> {
+                                sfx_uhuh.play();
                                 textButton2.setText("wrong");
                                 textButton2.setDisabled(true);
                                 loadTable(table);
@@ -228,7 +247,10 @@ public class GameTriviaScreen extends JamScreen {
                             table.row();
                             textButton = new TextButton("OK", skin, "trivia");
                             table.add(textButton);
-                            Listeners.change(textButton,() -> loadTable(table));
+                            Listeners.change(textButton,() -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 7:
                             label = new Label("Where is the blackbird?", skin, "trivia");
@@ -240,7 +262,10 @@ public class GameTriviaScreen extends JamScreen {
                             image = new Image(skin, "trivia-bird1");
                             table.add(image);
                             image.setTouchable(Touchable.enabled);
-                            Listeners.click(image, () -> loadTable(table));
+                            Listeners.click(image, () -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 8:
                             label = new Label("Correct!", skin, "trivia");
@@ -257,7 +282,10 @@ public class GameTriviaScreen extends JamScreen {
                             table.row();
                             textButton = new TextButton("OK", skin, "trivia");
                             table.add(textButton);
-                            Listeners.change(textButton,() -> loadTable(table));
+                            Listeners.change(textButton,() -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 9:
                             label = new Label("When was the loadscreen game patented?", skin, "trivia");
@@ -272,6 +300,7 @@ public class GameTriviaScreen extends JamScreen {
                                 textButton1.setText("YES!");
                                 textButton1.setDisabled(true);
                                 loadTable(table);
+                                sfx_uhHuh.play();
                             });
                             break;
                         case 10:
@@ -287,6 +316,7 @@ public class GameTriviaScreen extends JamScreen {
                                 textButton1.setText("YES!");
                                 textButton1.setDisabled(true);
                                 loadTable(table);
+                                sfx_uhHuh.play();
                             });
                             break;
                         case 11:
@@ -302,13 +332,17 @@ public class GameTriviaScreen extends JamScreen {
                                 textButton1.setText("HOORAY FOR CORPORATE GREED!");
                                 textButton1.setDisabled(true);
                                 loadTable(table);
+                                sfx_uhHuh.play();
                             });
                             break;
                         case 12:
                             image = new Image(skin, "trivia-find3");
                             table.add(image);
                             image.setTouchable(Touchable.enabled);
-                            Listeners.click(image, () -> loadTable(table));
+                            Listeners.click(image, () -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 13:
                             label = new Label("The door to paradise is guarded by two mighty beasts, a zebra and a " +
@@ -325,6 +359,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton1 = new TextButton("Ask the panda", skin, "trivia");
                             table.add(textButton1);
                             Listeners.change(textButton1, () -> {
+                                sfx_uhuh.play();
                                 textButton1.setText("The panda points to the door to the right\n" +
                                         "You enter and fall into a world of eternal torment");
                                 textButton1.setDisabled(true);
@@ -336,6 +371,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton2 = new TextButton("Ask the zebra", skin, "trivia");
                             table.add(textButton2);
                             Listeners.change(textButton2, () -> {
+                                sfx_uhuh.play();
                                 textButton2.setText("The zebra points to the door to the left\n" +
                                         "You enter and fall into a world of eternal torment");
                                 textButton2.setDisabled(true);
@@ -347,6 +383,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton3 = new TextButton("Ask the panda what the zebra would say", skin, "trivia");
                             table.add(textButton3);
                             Listeners.change(textButton3, () -> {
+                                sfx_uhuh.play();
                                 textButton3.setText("The panda says \"20 bucks\" and then devours you");
                                 textButton3.setDisabled(true);
                                 buttonsClicked++;
@@ -357,6 +394,7 @@ public class GameTriviaScreen extends JamScreen {
                             textButton4 = new TextButton("Ask the zebra what the panda would say", skin, "trivia");
                             table.add(textButton4);
                             Listeners.change(textButton4, () -> {
+                                sfx_uhuh.play();
                                 textButton4.setText("The zebra says \"20 bucks\" and then tickles you");
                                 textButton4.setDisabled(true);
                                 buttonsClicked++;
@@ -367,7 +405,10 @@ public class GameTriviaScreen extends JamScreen {
                             image = new Image(skin, "trivia-find4");
                             table.add(image);
                             image.setTouchable(Touchable.enabled);
-                            Listeners.click(image, () -> loadTable(table));
+                            Listeners.click(image, () -> {
+                                loadTable(table);
+                                sfx_uhHuh.play();
+                            });
                             break;
                         case 15:
                             progress += 100;

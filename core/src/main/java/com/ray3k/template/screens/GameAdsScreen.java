@@ -70,6 +70,7 @@ public class GameAdsScreen extends JamScreen {
         image.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
+                sfx_hah.play();
                 index++;
                 if (index >= drawables.size) index = 0;
                 image.setDrawable(drawables.get(index));

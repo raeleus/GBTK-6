@@ -29,7 +29,7 @@ public class SplashScreen extends JamScreen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 Gdx.input.setInputProcessor(null);
-                core.transition(new FakeLoadScreen2());
+                core.transition(!beatGame ? new FakeLoadScreen2() : new CreditsScreen());
             }
         });
     
@@ -37,7 +37,7 @@ public class SplashScreen extends JamScreen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 Gdx.input.setInputProcessor(null);
-                core.transition(new FakeLoadScreen2());
+                core.transition(!beatGame ? new FakeLoadScreen2() : new CreditsScreen());
             }
         });
     }

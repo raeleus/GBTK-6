@@ -10,6 +10,7 @@ import com.ray3k.template.*;
 import com.ray3k.template.Resources.*;
 import com.ray3k.template.screens.*;
 
+import static com.ray3k.template.Resources.*;
 import static com.ray3k.template.Resources.SpineAsteroidsBullet.*;
 
 public class AsteroidsBulletEntity extends Entity {
@@ -52,6 +53,7 @@ public class AsteroidsBulletEntity extends Entity {
         for (int i = 0; i < collisions.size(); i++) {
             var collision = collisions.get(i);
             if (collision.other.userData instanceof AsteroidsAsteroidEntity) {
+                sfx_explosion.play();
                 destroy = true;
                 var asteroid = (AsteroidsAsteroidEntity) collision.other.userData;
                 asteroid.destroy = true;

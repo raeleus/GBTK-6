@@ -6,7 +6,9 @@ import com.dongbat.jbump.Collisions;
 import com.dongbat.jbump.Item;
 import com.dongbat.jbump.Response;
 import com.dongbat.jbump.Response.Result;
+import com.ray3k.template.*;
 
+import static com.ray3k.template.Resources.*;
 import static com.ray3k.template.Resources.SpineDragon.*;
 import static com.ray3k.template.screens.GameDragonScreen.*;
 
@@ -25,6 +27,7 @@ public class DragonPlayerEntity extends Entity {
     @Override
     public void act(float delta) {
         if (game.isButtonJustPressed(Buttons.LEFT)) {
+            Resources.sfx_woof.play();
             setMotion(800, 90);
             setGravity(2000, 270);
             animationState.setAnimation(0, animationBlaze, false);
@@ -59,6 +62,7 @@ public class DragonPlayerEntity extends Entity {
     @Override
     public void collision(Collisions collisions) {
         for (int i = 0; i < collisions.size(); i++) {
+            sfx_ohMyHead.play();
             var collision = collisions.get(i);
             var tree = (DragonTreeEntity) collision.other.userData;
             tree.destroy = true;

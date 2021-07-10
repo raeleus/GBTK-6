@@ -87,6 +87,7 @@ public class GameDragonScreen extends JamScreen {
         if (respawnTimer > 0) {
             respawnTimer -= delta;
             if (respawnTimer <= 0) {
+                world.reset();
                 respawnTimer = 0;
                 entityController.clear();
                 var dragon = new DragonPlayerEntity();

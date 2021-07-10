@@ -41,6 +41,7 @@ public class Core extends JamGame {
     public static float bgm;
     public static float sfx;
     public static Preferences preferences;
+    public static boolean beatGame;
     
     @Override
     public void create() {

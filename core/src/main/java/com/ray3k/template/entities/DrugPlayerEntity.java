@@ -7,6 +7,7 @@ import com.dongbat.jbump.Collisions;
 import com.dongbat.jbump.Item;
 import com.dongbat.jbump.Response;
 import com.dongbat.jbump.Response.Result;
+import com.ray3k.template.*;
 
 import static com.ray3k.template.Resources.SpineDrugPlayer.*;
 import static com.ray3k.template.screens.GameDrugScreen.*;
@@ -58,6 +59,7 @@ public class DrugPlayerEntity extends Entity {
         for (int i = 0; i < collisions.size(); i++) {
             var collision = collisions.get(i);
             if (collision.other.userData instanceof DrugEntity) {
+                Resources.sfx_mmmmm.play();
                 var drug = (DrugEntity) collision.other.userData;
                 drug.destroy = true;
                 game.progress += 7;

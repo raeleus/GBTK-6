@@ -31,6 +31,7 @@ public class WindowsHiScreen extends JamScreen {
     @Override
     public void show() {
         super.show();
+        beatGame = true;
 
         spineDrawables = new Array<>();
         sounds = new ObjectSet<>();

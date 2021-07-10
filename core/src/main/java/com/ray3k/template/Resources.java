@@ -15,19 +15,29 @@ public class Resources {
 
     public static TextureAtlas textures_output;
 
-    public static Sound sfx_ahh;
+    public static Sound sfx_bang;
+
+    public static Sound sfx_boom;
+
+    public static Sound sfx_chomp;
 
     public static Sound sfx_click;
 
-    public static Sound sfx_libgdx;
+    public static Sound sfx_explosion;
 
-    public static Sound sfx_pleaseDontKillMe;
+    public static Sound sfx_hah;
 
-    public static Sound sfx_shot;
+    public static Sound sfx_mmmmm;
 
-    public static Sound sfx_swoosh;
+    public static Sound sfx_ohMyHead;
 
-    public static Sound sfx_tv;
+    public static Sound sfx_ouch;
+
+    public static Sound sfx_uhHuh;
+
+    public static Sound sfx_uhuh;
+
+    public static Sound sfx_woof;
 
     public static Music bgm_minigame1;
 
@@ -92,6 +102,11 @@ public class Resources {
         SpineDrugPlayer.animationData = assetManager.get("spine/drug-player.json-animation");
         SpineDrugPlayer.animationAnimation = SpineDrugPlayer.skeletonData.findAnimation("animation");
         SpineDrugPlayer.skinDefault = SpineDrugPlayer.skeletonData.findSkin("default");
+        SpineMenuLoading.skeletonData = assetManager.get("spine/menu-loading.json");
+        SpineMenuLoading.animationData = assetManager.get("spine/menu-loading.json-animation");
+        SpineMenuLoading.animationAnimation = SpineMenuLoading.skeletonData.findAnimation("animation");
+        SpineMenuLoading.animationHide = SpineMenuLoading.skeletonData.findAnimation("hide");
+        SpineMenuLoading.skinDefault = SpineMenuLoading.skeletonData.findSkin("default");
         SpineNvidia0.skeletonData = assetManager.get("spine/nvidia-0.json");
         SpineNvidia0.animationData = assetManager.get("spine/nvidia-0.json-animation");
         SpineNvidia0.animation3080 = SpineNvidia0.skeletonData.findAnimation("3080");
@@ -136,13 +151,18 @@ public class Resources {
         SpineWindowsUpdate.animationStart = SpineWindowsUpdate.skeletonData.findAnimation("start");
         SpineWindowsUpdate.skinDefault = SpineWindowsUpdate.skeletonData.findSkin("default");
         textures_output = assetManager.get("textures/output.atlas");
-        sfx_ahh = assetManager.get("sfx/ahh.mp3");
+        sfx_bang = assetManager.get("sfx/bang.mp3");
+        sfx_boom = assetManager.get("sfx/boom.mp3");
+        sfx_chomp = assetManager.get("sfx/chomp.mp3");
         sfx_click = assetManager.get("sfx/click.mp3");
-        sfx_libgdx = assetManager.get("sfx/libgdx.mp3");
-        sfx_pleaseDontKillMe = assetManager.get("sfx/please don't kill me.mp3");
-        sfx_shot = assetManager.get("sfx/shot.mp3");
-        sfx_swoosh = assetManager.get("sfx/swoosh.mp3");
-        sfx_tv = assetManager.get("sfx/tv.mp3");
+        sfx_explosion = assetManager.get("sfx/explosion.mp3");
+        sfx_hah = assetManager.get("sfx/hah.mp3");
+        sfx_mmmmm = assetManager.get("sfx/mmmmm.mp3");
+        sfx_ohMyHead = assetManager.get("sfx/oh my head.mp3");
+        sfx_ouch = assetManager.get("sfx/ouch.mp3");
+        sfx_uhHuh = assetManager.get("sfx/uh huh.mp3");
+        sfx_uhuh = assetManager.get("sfx/uhuh.mp3");
+        sfx_woof = assetManager.get("sfx/woof.mp3");
         bgm_minigame1 = assetManager.get("bgm/minigame1.mp3");
         bgm_minigame2 = assetManager.get("bgm/minigame2.mp3");
         bgm_minigame3 = assetManager.get("bgm/minigame3.mp3");
@@ -265,6 +285,18 @@ public class Resources {
         public static AnimationStateData animationData;
 
         public static Animation animationAnimation;
+
+        public static com.esotericsoftware.spine.Skin skinDefault;
+    }
+
+    public static class SpineMenuLoading {
+        public static SkeletonData skeletonData;
+
+        public static AnimationStateData animationData;
+
+        public static Animation animationAnimation;
+
+        public static Animation animationHide;
 
         public static com.esotericsoftware.spine.Skin skinDefault;
     }

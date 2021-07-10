@@ -1,0 +1,73 @@
+{
+"skeleton": {
+	"hash": "3fmLSQctEvk",
+	"spine": "4.0.04",
+	"x": 24.62,
+	"y": 9.26,
+	"width": 489.89,
+	"height": 122.98,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/menu-loading-icon", "parent": "root", "length": 93.74, "rotation": 0.91, "x": 455.5, "y": 71.75 }
+],
+"slots": [
+	{ "name": "game/menu-loading", "bone": "root", "attachment": "game/menu-loading" },
+	{ "name": "game/menu-loading-icon", "bone": "game/menu-loading-icon", "attachment": "game/menu-loading-icon" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/menu-loading": {
+				"game/menu-loading": { "x": 196.62, "y": 73.24, "width": 344, "height": 118 }
+			},
+			"game/menu-loading-icon": {
+				"game/menu-loading-icon": { "x": -1.51, "y": -1.46, "rotation": -0.91, "width": 121, "height": 122 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"game/menu-loading": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2333, "name": "game/menu-loading" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"game/menu-loading-icon": {
+				"rotate": [
+					{ "value": 359.09 },
+					{ "time": 0.1333, "value": 269.09 },
+					{ "time": 0.2667, "value": 179.09 },
+					{ "time": 0.4, "value": 89.09 },
+					{ "time": 0.5333, "value": -0.91 }
+				]
+			}
+		}
+	},
+	"hide": {
+		"slots": {
+			"game/menu-loading": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"game/menu-loading-icon": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

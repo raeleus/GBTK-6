@@ -54,7 +54,7 @@ public class LoadScreen extends JamScreen {
                         return MathUtils.isEqual(progressBar.getVisualPercent(), 1f);
                     }
                 }, Actions.delay(3f), Actions.run(runnable), Actions.run(() -> core.setScreen(new FakeUnloadScreen()))));
-//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new GameDonutScreen()))));
+//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new GameDragonScreen()))));
             }
         }
     }

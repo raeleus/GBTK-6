@@ -1,12 +1,14 @@
 package com.ray3k.template.entities;
 
 import com.badlogic.gdx.Input.Buttons;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.math.MathUtils;
 import com.dongbat.jbump.Collisions;
 import com.dongbat.jbump.Response.Result;
 import com.esotericsoftware.spine.AnimationState;
 import com.esotericsoftware.spine.AnimationState.AnimationStateAdapter;
 import com.esotericsoftware.spine.AnimationState.TrackEntry;
+import com.esotericsoftware.spine.Event;
 import com.ray3k.template.*;
 import com.ray3k.template.screens.*;
 
@@ -29,6 +31,15 @@ public class DonutDonutEntity extends Entity {
             public void complete(TrackEntry entry) {
                 if (entry.getAnimation() == animationAnger6) {
                     game.progress += 100;
+                }
+            }
+    
+            @Override
+            public void event(TrackEntry entry, Event event) {
+                var path = event.getData().getAudioPath();
+                if (path != null) {
+                    Sound sound = Core.assetManager.get(path);
+                    sound.play();
                 }
             }
         });
@@ -54,6 +65,7 @@ public class DonutDonutEntity extends Entity {
         }
         
         if (game.isButtonJustPressed(Buttons.LEFT) && skeletonBounds.containsPoint(game.mouseX, game.mouseY) != null) {
+            Resources.sfx_mmmmm.play();
             setPosition(MathUtils.random(1024), MathUtils.random(576));
             if (state < 6) game.progress += 3;
             

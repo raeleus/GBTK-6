@@ -39,7 +39,8 @@ public class WiseScreen extends JamScreen {
         window.setBackground(skin.getDrawable("wise-window-10"));
         root.add(window);
         
-        window.add().size(200, 300);
+        var image = new Image(skin.getDrawable("cod-uprising"));
+        window.add(image).space(20);
         
         var table = new Table();
         window.add(table).growX();
@@ -47,7 +48,7 @@ public class WiseScreen extends JamScreen {
         var subTable = new Table();
         table.add(subTable).growX();
         
-        var image = new Image(skin.getDrawable("wise-icon"));
+        image = new Image(skin.getDrawable("wise-icon"));
         subTable.add(image).space(10);
         
         var label = new Label("Welcome to the Murderzone 3 Setup program. This program will install Murderzone 3 on your computer.",  skin, "wise");
