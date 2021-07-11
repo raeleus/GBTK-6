@@ -14,19 +14,29 @@ t:menus/credits.json:menus/credits-79770295ed902e50a73fa91885efe517.json:2519:ap
 t:menus/main.json:menus/main-3d5faf2e8c5aee1145e85d6413a46777.json:3990:application/unknown:1
 t:menus/splash.json:menus/splash-b62d842d9a6a3412a5922d9dbe1bfdf0.json:1400:application/unknown:1
 d:sfx:sfx:0:application/unknown:1
+a:sfx/add 10.mp3:sfx/add 10-6248f44315d681b655ad473f39838c2e.mp3:20866:audio/mpeg:1
+a:sfx/add15.mp3:sfx/add15-956896b6f4314918129b4595b4ce2ab6.mp3:31303:audio/mpeg:1
+a:sfx/backspace.mp3:sfx/backspace-66fb0c01a30e38738a10dbdeb374b504.mp3:22798:audio/mpeg:1
 a:sfx/bang.mp3:sfx/bang-7c0dde83c7734d5fc3c340d89fa58d53.mp3:14188:audio/mpeg:1
 a:sfx/boom.mp3:sfx/boom-dbf65ab19eb082796337b254b0baee6c.mp3:15023:audio/mpeg:1
 a:sfx/chomp.mp3:sfx/chomp-b7f235ee63d8ba22ec10a861351cbfc6.mp3:16069:audio/mpeg:1
 a:sfx/click.mp3:sfx/click-dcab81c8b3a45c876c1108422c5d172f.mp3:3278:audio/mpeg:1
+a:sfx/concatenate0.mp3:sfx/concatenate0-c08ecde0c30252aa8d9eb4f7e80dce47.mp3:33809:audio/mpeg:1
+a:sfx/divideby3.mp3:sfx/divideby3-7794e1e8fac62c416cf1d2360326e24c.mp3:30363:audio/mpeg:1
 a:sfx/explosion.mp3:sfx/explosion-deaab6f9c10d36a0c67304b48cd2c542.mp3:25673:audio/mpeg:1
 a:sfx/hah.mp3:sfx/hah-648a673b119378f99300ecde436fdcf4.mp3:20767:audio/mpeg:1
 a:sfx/mmmmm.mp3:sfx/mmmmm-351f1a9c4b563e400dd1ab6da2db9f6c.mp3:17527:audio/mpeg:1
+a:sfx/multiplyby2.mp3:sfx/multiplyby2-69e2f989e42b60929f2327ee50961afa.mp3:29217:audio/mpeg:1
 a:sfx/oh my head.mp3:sfx/oh my head-cb88ea1058db1b063a87f15625c2678e.mp3:26818:audio/mpeg:1
 a:sfx/ouch.mp3:sfx/ouch-c04e9a4e539b1c1d9a14c67d859c1873.mp3:18053:audio/mpeg:1
+a:sfx/plus1.mp3:sfx/plus1-fa4e1714ee79ca847c63406a14ad8144.mp3:21544:audio/mpeg:1
+a:sfx/reset.mp3:sfx/reset-1c6f61aa4ce9c0f37c05db9fdca75e70.mp3:19618:audio/mpeg:1
+a:sfx/subtract1.mp3:sfx/subtract1-6ae569487a39b132cddb34e60779254b.mp3:25615:audio/mpeg:1
+a:sfx/subtract5.mp3:sfx/subtract5-2f03ab3ea5dbb1321144f12b4ddc45c4.mp3:30883:audio/mpeg:1
 a:sfx/uh huh.mp3:sfx/uh huh-1d3b5921f8b47ff7156864ff3bb4b93b.mp3:15391:audio/mpeg:1
 a:sfx/uhuh.mp3:sfx/uhuh-562c17dbdaae9d45b4c955a937fa42b7.mp3:19618:audio/mpeg:1
 a:sfx/woof.mp3:sfx/woof-7b83f1b9c6139fdfec675421dc77e9da.mp3:15651:audio/mpeg:1
-t:sfx.txt:sfx-c1bb440b836a8b99ae1ae637de0ea73e.txt:170:text/plain:1
+t:sfx.txt:sfx-802c8708b862e9b1297dce04ddf0fce0.txt:340:text/plain:1
 d:shaders:shaders:0:application/unknown:1
 b:shaders/earthquake.frag:shaders/earthquake-f29a45e220949fd734e27f0df2b1eab7.frag:2145:application/unknown:1
 b:shaders/glitch.frag:shaders/glitch-b05e1156ad9e43cd1b014f3e2f29fedd.frag:2033:application/unknown:1
@@ -41,7 +51,7 @@ t:skin/RaeleusFuturius.fnt:skin/RaeleusFuturius-036c7a65b6b362658a5efc2e9290ebd4
 t:skin/RaeleusScriptius-Regular.fnt:skin/RaeleusScriptius-Regular-b31e199ff646db4cd3aed88e28c7a937.fnt:10803:application/unknown:1
 t:skin/shimmer-ui.atlas:skin/shimmer-ui-9e6c6e2a6e493f7fd99c7f4bcbf97475.atlas:53412:application/unknown:1
 i:skin/shimmer-ui.png:skin/shimmer-ui-612743a60cd56979ef2de727ba810c21.png:500327:image/png:1
-t:skin/skin.json:skin/skin-2d38d6a46b0f31fe6ca7029ae0201df4.json:23823:application/unknown:1
+t:skin/skin.json:skin/skin-efef8ceae386377f37a36840f89a151e.json:24779:application/unknown:1
 t:skin/small.fnt:skin/small-e223b25c1da9ef68ad4d40a801ab2e9d.fnt:21242:application/unknown:1
 t:skin/solidus100.fnt:skin/solidus100-6882e34cc9bd50a18d2b7a425d161cc0.fnt:10668:application/unknown:1
 t:skin/solidus30.fnt:skin/solidus30-9b8abb5da92c60b3ce1e383c229389b0.fnt:10665:application/unknown:1
@@ -70,9 +80,9 @@ t:spine/windows-hi.json:spine/windows-hi-ddbaccf7aa4da757726d9465efd816b6.json:4
 t:spine/windows-update.json:spine/windows-update-5951529ee6005756c488a4b08b27959a.json:8079:application/unknown:1
 t:spine.txt:spine-ef74c2763b86decc9b2b242227de2f85.txt:430:text/plain:1
 d:textures:textures:0:application/unknown:1
-t:textures/output.atlas:textures/output-dd2cdd9b63e6509d26f97047969dc3e7.atlas:7126:application/unknown:1
+t:textures/output.atlas:textures/output-1021e12751cd8eb0ff7c15b84931227d.atlas:7454:application/unknown:1
 i:textures/output.png:textures/output-75840dce024b568fbd8d19a2d04aac6c.png:5813235:image/png:1
-i:textures/output_2.png:textures/output_2-435c371e95a96f6fc4826bf9c87414e4.png:9371349:image/png:1
+i:textures/output_2.png:textures/output_2-c52fd2c203d335adbba702adeb8bac7b.png:9781354:image/png:1
 t:textures.txt:textures-c07a48a9a79ad06c292dd9483c0991f1.txt:21:text/plain:1
 d:video:video:0:application/unknown:1
 b:video/menu.webm:video/menu-f9b857962d1ebfb097494a75da899f9f.webm:3169086:video/webm:1

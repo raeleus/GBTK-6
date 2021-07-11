@@ -304,7 +304,7 @@ public class NvidiaScreen extends JamScreen {
                 Actions.delay(2f),
                 Actions.run(() -> {
                     root.remove();
-                    core.transition(new MenuScreen());
+                    core.transition(new GameHighScreen());
                 })
         ));
         

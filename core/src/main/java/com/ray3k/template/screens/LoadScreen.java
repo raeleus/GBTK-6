@@ -1,7 +1,6 @@
 package com.ray3k.template.screens;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
@@ -54,7 +53,7 @@ public class LoadScreen extends JamScreen {
                         return MathUtils.isEqual(progressBar.getVisualPercent(), 1f);
                     }
                 }, Actions.delay(3f), Actions.run(runnable), Actions.run(() -> core.setScreen(new FakeUnloadScreen()))));
-//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new GameDragonScreen()))));
+//                }, Actions.delay(0f), Actions.run(runnable), Actions.run(() -> core.setScreen(new GameHighScreen()))));
             }
         }
     }

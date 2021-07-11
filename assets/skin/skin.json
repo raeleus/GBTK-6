@@ -47,6 +47,12 @@
 		"b": 0.49333337,
 		"a": 1
 	},
+	"high": {
+		"r": 0.028977811,
+		"g": 0.54333335,
+		"b": 0.06316501,
+		"a": 1
+	},
 	"nvidia": {
 		"r": 0,
 		"g": 0.91764706,
@@ -996,6 +1002,11 @@
 		"playMode": 2
 	}
 },
+"com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+	"default": {
+		"up": "dialog-button-10"
+	}
+},
 "com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
 	"default": {
 		"checkboxOn": "wise-radio-pressed",
@@ -1027,6 +1038,50 @@
 	"nvidia-pause": {
 		"imageUp": "nvidia-pause",
 		"pressedOffsetY": -1
+	},
+	"high-0": {
+		"imageUp": "high-0",
+		"pressedOffsetY": -2
+	},
+	"high-1": {
+		"imageUp": "high-1",
+		"pressedOffsetY": -2
+	},
+	"high-2": {
+		"imageUp": "high-2",
+		"pressedOffsetY": -2
+	},
+	"high-3": {
+		"imageUp": "high-3",
+		"pressedOffsetY": -2
+	},
+	"high-4": {
+		"imageUp": "high-4",
+		"pressedOffsetY": -2
+	},
+	"high-5": {
+		"imageUp": "high-5",
+		"pressedOffsetY": -2
+	},
+	"high-6": {
+		"imageUp": "high-6",
+		"pressedOffsetY": -2
+	},
+	"high-7": {
+		"imageUp": "high-7",
+		"pressedOffsetY": -2
+	},
+	"high-8": {
+		"imageUp": "high-8",
+		"pressedOffsetY": -2
+	},
+	"high-9": {
+		"imageUp": "high-9",
+		"pressedOffsetY": -2
+	},
+	"high-submit": {
+		"imageUp": "high-submit",
+		"pressedOffsetY": -2
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
@@ -1068,6 +1123,10 @@
 	"trivia": {
 		"font": "trivia",
 		"fontColor": "black"
+	},
+	"high": {
+		"font": "minigame-title",
+		"fontColor": "high"
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle": {

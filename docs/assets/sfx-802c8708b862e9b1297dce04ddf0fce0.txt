@@ -1,0 +1,22 @@
+sfx/add 10.mp3
+sfx/add15.mp3
+sfx/backspace.mp3
+sfx/bang.mp3
+sfx/boom.mp3
+sfx/chomp.mp3
+sfx/click.mp3
+sfx/concatenate0.mp3
+sfx/divideby3.mp3
+sfx/explosion.mp3
+sfx/hah.mp3
+sfx/mmmmm.mp3
+sfx/multiplyby2.mp3
+sfx/oh my head.mp3
+sfx/ouch.mp3
+sfx/plus1.mp3
+sfx/reset.mp3
+sfx/subtract1.mp3
+sfx/subtract5.mp3
+sfx/uh huh.mp3
+sfx/uhuh.mp3
+sfx/woof.mp3

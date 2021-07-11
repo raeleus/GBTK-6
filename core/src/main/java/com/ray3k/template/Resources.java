@@ -15,6 +15,12 @@ public class Resources {
 
     public static TextureAtlas textures_output;
 
+    public static Sound sfx_add10;
+
+    public static Sound sfx_add15;
+
+    public static Sound sfx_backspace;
+
     public static Sound sfx_bang;
 
     public static Sound sfx_boom;
@@ -23,15 +29,29 @@ public class Resources {
 
     public static Sound sfx_click;
 
+    public static Sound sfx_concatenate0;
+
+    public static Sound sfx_divideby3;
+
     public static Sound sfx_explosion;
 
     public static Sound sfx_hah;
 
     public static Sound sfx_mmmmm;
 
+    public static Sound sfx_multiplyby2;
+
     public static Sound sfx_ohMyHead;
 
     public static Sound sfx_ouch;
+
+    public static Sound sfx_plus1;
+
+    public static Sound sfx_reset;
+
+    public static Sound sfx_subtract1;
+
+    public static Sound sfx_subtract5;
 
     public static Sound sfx_uhHuh;
 
@@ -151,15 +171,25 @@ public class Resources {
         SpineWindowsUpdate.animationStart = SpineWindowsUpdate.skeletonData.findAnimation("start");
         SpineWindowsUpdate.skinDefault = SpineWindowsUpdate.skeletonData.findSkin("default");
         textures_output = assetManager.get("textures/output.atlas");
+        sfx_add10 = assetManager.get("sfx/add 10.mp3");
+        sfx_add15 = assetManager.get("sfx/add15.mp3");
+        sfx_backspace = assetManager.get("sfx/backspace.mp3");
         sfx_bang = assetManager.get("sfx/bang.mp3");
         sfx_boom = assetManager.get("sfx/boom.mp3");
         sfx_chomp = assetManager.get("sfx/chomp.mp3");
         sfx_click = assetManager.get("sfx/click.mp3");
+        sfx_concatenate0 = assetManager.get("sfx/concatenate0.mp3");
+        sfx_divideby3 = assetManager.get("sfx/divideby3.mp3");
         sfx_explosion = assetManager.get("sfx/explosion.mp3");
         sfx_hah = assetManager.get("sfx/hah.mp3");
         sfx_mmmmm = assetManager.get("sfx/mmmmm.mp3");
+        sfx_multiplyby2 = assetManager.get("sfx/multiplyby2.mp3");
         sfx_ohMyHead = assetManager.get("sfx/oh my head.mp3");
         sfx_ouch = assetManager.get("sfx/ouch.mp3");
+        sfx_plus1 = assetManager.get("sfx/plus1.mp3");
+        sfx_reset = assetManager.get("sfx/reset.mp3");
+        sfx_subtract1 = assetManager.get("sfx/subtract1.mp3");
+        sfx_subtract5 = assetManager.get("sfx/subtract5.mp3");
         sfx_uhHuh = assetManager.get("sfx/uh huh.mp3");
         sfx_uhuh = assetManager.get("sfx/uhuh.mp3");
         sfx_woof = assetManager.get("sfx/woof.mp3");

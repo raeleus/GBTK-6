@@ -150,224 +150,246 @@ output_2.png
 size:4096,4096
 filter:Linear,Linear
 Raeleus Solidus
-bounds:2315,3990,504,72
+bounds:3142,3979,504,72
 RaeleusFuturius
-bounds:509,3898,506,114
+bounds:1671,3887,506,114
 RaeleusScriptius-Regular
-bounds:1226,4006,506,63
+bounds:1964,4003,506,63
 ads-progressbar
-bounds:3402,3966,579,78
+bounds:582,3935,579,78
 ads-progressbar-back
-bounds:2821,3976,579,78
+bounds:1,3945,579,78
 blue-screen (1)
-bounds:1177,3423,351,209
+bounds:2059,3409,351,209
 blue-screen (2)
-bounds:1530,3423,351,209
+bounds:2412,3409,351,209
 blue-screen (3)
-bounds:1883,3404,351,209
+bounds:2765,3376,351,209
 blue-screen (4)
-bounds:2236,3384,351,209
+bounds:1,3333,351,209
 blue-screen (5)
-bounds:2589,3364,351,209
+bounds:354,3326,351,209
 blue-screen (6)
-bounds:2942,3364,351,209
+bounds:707,3304,351,209
 blue-screen (7)
-bounds:3295,3364,351,209
+bounds:1060,3304,351,209
 blue-screen (8)
-bounds:3648,3364,351,209
+bounds:3118,3282,351,209
 cod-uprising (1)
-bounds:3735,2761,248,351
+bounds:3809,2923,248,351
 cod-uprising (2)
-bounds:1240,2584,248,351
+bounds:880,2721,248,351
 dialog-bg
-bounds:1,3283,448,215
+bounds:3471,3276,448,215
 dialog-button
-bounds:2745,4068,65,26
+bounds:2745,4065,65,26
 dialog-button-disabled
-bounds:2544,4068,65,26
+bounds:2544,4065,65,26
 dialog-button-over
-bounds:2611,4068,65,26
+bounds:2611,4065,65,26
 dialog-button-pressed
-bounds:2678,4068,65,26
+bounds:2678,4065,65,26
 drug-cinematic1
-bounds:643,2629,595,306
+bounds:1,2498,595,306
 drug-cinematic2
-bounds:2089,3824,438,164
+bounds:2957,3813,438,164
 find hot single (1)
-bounds:3119,3784,439,180
+bounds:296,3753,439,180
 find hot single (2)
-bounds:3560,3784,439,180
+bounds:1090,3724,439,180
 game plays itself (1)
-bounds:3727,2386,334,373
+bounds:3640,2195,334,373
 game plays itself (2)
-bounds:1771,2199,334,373
+bounds:1057,1960,334,373
 game-plays (1)
-bounds:1,3735,351,187
+bounds:737,3746,351,187
 game-plays (2)
-bounds:354,3709,351,187
+bounds:3692,3702,351,187
+high-0
+bounds:403,4031,67,50
+high-1
+bounds:3921,4044,73,47
+high-2
+bounds:3996,4042,75,49
+high-3
+bounds:693,4023,74,54
+high-4
+bounds:2647,3991,87,72
+high-5
+bounds:769,4023,74,54
+high-6
+bounds:3857,4050,62,41
+high-7
+bounds:3648,3968,104,83
+high-8
+bounds:596,4024,95,53
+high-9
+bounds:1878,4008,84,58
+high-submit
+bounds:1410,4011,136,55
 loading1 (1)
-bounds:1017,3855,292,149
+bounds:3795,3891,292,149
 loading1 (2)
-bounds:1311,3855,292,149
+bounds:2179,3844,292,149
 mail (1)
-bounds:451,3250,412,228
+bounds:529,3074,412,228
 mail (2)
-bounds:2730,3134,412,228
+bounds:943,3074,412,228
 minigame-title
-bounds:2224,3135,504,227
+bounds:2244,3180,504,227
 monke-antivirus (1)
-bounds:2107,2179,526,372
+bounds:1,2124,526,372
 monke-antivirus (2)
-bounds:2635,2112,526,372
+bounds:2903,2040,526,372
 monke-facxe (1)
-bounds:707,2937,877,266
+bounds:1710,2912,877,266
 monke-facxe (3)
-bounds:707,2937,877,266
+bounds:1710,2912,877,266
 monke-facxe (2)
-bounds:2217,2866,877,266
+bounds:1,2806,877,266
 monke-facxe (4)
-bounds:2217,2866,877,266
+bounds:1,2806,877,266
 mz3-button
-bounds:269,4032,60,52
+bounds:534,4025,60,52
 mz3-button-over
-bounds:3991,4042,60,52
+bounds:472,4029,60,52
 mz3-logo
-bounds:1605,3843,482,156
+bounds:2473,3829,482,156
 nuke (1)
-bounds:3144,3114,351,248
+bounds:2750,3126,351,248
 nuke (2)
-bounds:3497,3114,351,248
+bounds:3103,3032,351,248
 nuke (3)
-bounds:1,3033,351,248
+bounds:3456,3026,351,248
 nuke (4)
-bounds:354,3000,351,248
+bounds:1357,2989,351,248
 nvidia
-bounds:2844,4060,504,34
+bounds:2844,4057,504,34
 nvidia-button-normal
-bounds:3857,4046,132,48
+bounds:1,4033,132,48
 nvidia-button-over
-bounds:1,4036,132,48
+bounds:135,4033,132,48
 nvidia-button-pressed
-bounds:135,4036,132,48
+bounds:269,4033,132,48
 nvidia-download
-bounds:2259,3997,54,72
+bounds:2736,3991,54,72
 nvidia-pause
-bounds:978,4076,20,18
+bounds:978,4073,20,18
 nvidia-progress-bar
-bounds:1782,4071,760,23
+bounds:1782,4068,760,23
 nvidia-progress-bar-filled
-bounds:1020,4071,760,23
+bounds:1020,4068,760,23
 nvidia-progress-bar-small
-bounds:759,4082,169,12
+bounds:759,4079,169,12
 nvidia-progress-bar-small-filled
-bounds:588,4082,169,12
+bounds:588,4079,169,12
 nvidia-stop
-bounds:1000,4075,18,19
+bounds:1000,4072,18,19
 nvidia-tile
-bounds:2812,4064,30,30
+bounds:2812,4061,30,30
 pooh
-bounds:3163,2084,283,400
+bounds:2022,2206,283,400
 pooping-monke (1)
-bounds:1514,1612,414,585
+bounds:2276,1584,414,585
 pooping-monke (2)
-bounds:1930,1592,414,585
+bounds:1,1537,414,585
 sexy-sob (1)
-bounds:2653,2513,248,351
+bounds:3728,2570,248,351
 sexy-sob (2)
-bounds:3477,2457,248,351
+bounds:598,2453,248,351
 shrek
-bounds:529,1799,353,498
+bounds:1921,1706,353,498
 shrek-character (1)
-bounds:1168,3205,526,216
+bounds:1716,3191,526,216
 shrek-character (2)
-bounds:1696,3186,526,216
+bounds:1,3108,526,216
 solidus100
-bounds:2145,2553,506,311
+bounds:2589,2813,506,311
 solidus30
-bounds:331,4029,504,51
+bounds:904,4015,504,51
 special-offer (1)
-bounds:1,2364,585,328
+bounds:848,2335,585,328
 special-offer (2)
-bounds:588,2299,585,328
+bounds:1435,2278,585,328
 trivia
-bounds:1,3924,506,103
+bounds:1163,3906,506,103
 trivia-bird1
-bounds:1175,2238,594,334
+bounds:2307,2171,594,334
 trivia-bird2
-bounds:2903,2486,572,322
+bounds:1130,2665,572,322
 trivia-find1
-bounds:1586,2886,629,298
+bounds:3097,2726,629,298
 trivia-find2
-bounds:1490,2574,653,310
+bounds:2985,2414,653,310
 trivia-find3
-bounds:1,2694,640,304
+bounds:2343,2507,640,304
 trivia-find4
-bounds:3096,2810,637,302
+bounds:1704,2608,637,302
 virus (1)
-bounds:707,3689,292,207
+bounds:1932,3635,292,207
 virus (2)
-bounds:707,3689,292,207
+bounds:1932,3635,292,207
 virus (10)
-bounds:1402,3634,292,207
+bounds:2226,3620,292,207
 virus (11)
-bounds:1696,3634,292,207
+bounds:2520,3620,292,207
 virus (12)
-bounds:1990,3615,292,207
+bounds:2814,3604,292,207
 virus (13)
-bounds:2284,3595,292,207
+bounds:3108,3587,292,207
 virus (14)
-bounds:2578,3595,292,207
+bounds:1,3564,292,207
 virus (15)
-bounds:2872,3575,292,207
+bounds:295,3544,292,207
 virus (3)
-bounds:3166,3575,292,207
+bounds:589,3537,292,207
 virus (4)
-bounds:3460,3575,292,207
+bounds:883,3515,292,207
 virus (5)
-bounds:3754,3575,292,207
+bounds:1177,3515,292,207
 virus (6)
-bounds:1,3526,292,207
+bounds:3402,3493,292,207
 virus (7)
-bounds:295,3500,292,207
+bounds:3696,3493,292,207
 virus (8)
-bounds:589,3480,292,207
+bounds:1471,3481,292,207
 virus (9)
-bounds:883,3449,292,207
+bounds:1765,3426,292,207
 warning (1)
-bounds:3448,2012,526,372
+bounds:529,1961,526,372
 warning (2)
-bounds:1,1990,526,372
+bounds:1393,1904,526,372
 white
-bounds:1,4093,1,1
+bounds:1,4090,1,1
 winner (1)
-bounds:2529,3804,293,170
+bounds:3397,3796,293,170
 winner (2)
-bounds:2824,3804,293,170
+bounds:1,3773,293,170
 wise
-bounds:3350,4056,505,38
+bounds:3350,4053,505,38
 wise-button
-bounds:2084,4001,173,68
+bounds:2967,3987,173,68
 wise-button-over
-bounds:1734,4001,173,68
+bounds:2472,3995,173,68
 wise-button-pressed
-bounds:1909,4001,173,68
+bounds:2792,3987,173,68
 wise-eula
-bounds:865,3207,301,240
+bounds:1413,3239,301,240
 wise-icon
-bounds:837,4023,57,57
+bounds:845,4020,57,57
 wise-line
-bounds:4,4086,582,8
+bounds:4,4083,582,8
 wise-progress
-bounds:896,4014,328,55
+bounds:1548,4011,328,55
 wise-radio
-bounds:954,4078,22,16
+bounds:954,4075,22,16
 wise-radio-pressed
-bounds:930,4078,22,16
+bounds:930,4075,22,16
 wise-scroll
-bounds:4048,3536,46,467
+bounds:4045,3422,46,467
 wise-scroll-knob
-bounds:4053,4005,39,89
+bounds:3754,3962,39,89
 wise-window
-bounds:884,1727,628,509
+bounds:3431,1684,628,509
 yoda
-bounds:1001,3658,399,195
+bounds:1531,3690,399,195
