@@ -153,7 +153,7 @@ public class CreditsScreen extends JamScreen {
                             Actions.delay(.5f),
                             Actions.run(() -> {
                                 label.setText("Music:\n" +
-                                        "Jack Stevens: youtube.com/user/jakery1295\n" +
+                                        "Jake Stevens: youtube.com/user/jakery1295\n" +
                                         "Anuman\n" +
                                         "James: javacakegames.itch.io/");
                                 label.pack();
@@ -193,7 +193,7 @@ public class CreditsScreen extends JamScreen {
                             Actions.delay(.5f),
                             Actions.run(() -> {
                                 label.setText("aryan jape, James, ScreamingFist, Anuman, Bear, benbolt504,\n" +
-                                        "crispycweed, DragonQueen, Jack Stevens, Groxar, HexRainbow, Ice2, kale, Kaleidostar,\n" +
+                                        "crispycweed, DragonQueen, Jake Stevens, Groxar, HexRainbow, Ice2, kale, Kaleidostar,\n" +
                                         "My dudette, Shrek_Chungus, TanukiWish, The_Humbugg, Zimtente");
                                 label.pack();
                                 label.setPosition(1024, 360, Align.left);
