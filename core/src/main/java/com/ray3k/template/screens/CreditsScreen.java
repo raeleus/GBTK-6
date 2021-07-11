@@ -154,6 +154,7 @@ public class CreditsScreen extends JamScreen {
                             Actions.run(() -> {
                                 label.setText("Music:\n" +
                                         "Jack Stevens: youtube.com/user/jakery1295\n" +
+                                        "Anuman\n" +
                                         "James: javacakegames.itch.io/");
                                 label.pack();
                                 label.setPosition(1024, 360, Align.left);

@@ -33,8 +33,8 @@ public class GameAsteroidsScreen extends JamScreen {
     @Override
     public void show() {
         super.show();
-        bgm_minigame3.setLooping(true);
-        bgm_minigame3.play();
+        bgm_minigame6.setLooping(true);
+        bgm_minigame6.play();
         
         game = this;
         shapeDrawer = new ShapeDrawer(batch, skin.getRegion("white"));
@@ -90,7 +90,7 @@ public class GameAsteroidsScreen extends JamScreen {
         progressBar.setValue(progress);
         if (progress >= 100) {
             core.transition(new MenuScreen());
-            bgm_minigame3.stop();
+            bgm_minigame6.stop();
         }
         
         if (respawnCounter >= 0) {

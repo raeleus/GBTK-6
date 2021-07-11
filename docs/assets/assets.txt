@@ -5,8 +5,9 @@ a:bgm/minigame2.mp3:bgm/minigame2-6722f1fb94d943554ce6a1de07864d16.mp3:3676497:a
 a:bgm/minigame3.mp3:bgm/minigame3-1f761a73c79dc09a5c3eda1445161e46.mp3:4204949:audio/mpeg:1
 a:bgm/minigame4.mp3:bgm/minigame4-1cbe0a3e49a434675466cd73c1ed145a.mp3:6672146:audio/mpeg:1
 a:bgm/minigame5.mp3:bgm/minigame5-a82294086965dfbb2fb7cf93cb894b68.mp3:2175416:audio/mpeg:1
+a:bgm/minigame6.mp3:bgm/minigame6-fc23bd1082a5ff522fb468465b892b46.mp3:3603782:audio/mpeg:1
 a:bgm/war.mp3:bgm/war-375e6d7c0b0d3781f2a8f0459a10cf04.mp3:3539428:audio/mpeg:1
-t:bgm.txt:bgm-d602d1066c5ef4bac43b51e62954e5f3.txt:101:text/plain:1
+t:bgm.txt:bgm-00417f5c282f3c8ce3bed40139cc44c9.txt:119:text/plain:1
 d:data:data:0:application/unknown:1
 t:data/values.json:data/values-6136e3b3c1644fb04b85cf738fbf405b.json:126:application/unknown:1
 d:menus:menus:0:application/unknown:1

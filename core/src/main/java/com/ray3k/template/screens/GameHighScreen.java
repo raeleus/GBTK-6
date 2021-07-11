@@ -98,8 +98,7 @@ public class GameHighScreen extends JamScreen {
                     progress = 100;
                     responseLabel.addAction(Actions.delay(3,Actions.run(() -> {
                         core.transition(new MenuScreen());
-                        bgm_minigame1.setVolume(1f);
-                        bgm_minigame1.stop();
+                        bgm_minigame3.stop();
                     })));
                     sfx_uhHuh.play();
                 } else if (input < 420) {
@@ -109,8 +108,7 @@ public class GameHighScreen extends JamScreen {
                     if (progress >= 100) {
                         responseLabel.addAction(Actions.delay(3,Actions.run(() -> {
                             core.transition(new MenuScreen());
-                            bgm_minigame1.setVolume(1f);
-                            bgm_minigame1.stop();
+                            bgm_minigame3.stop();
                         })));
                     }
                 } else {
@@ -120,8 +118,7 @@ public class GameHighScreen extends JamScreen {
                     if (progress >= 100) {
                         responseLabel.addAction(Actions.delay(3,Actions.run(() -> {
                             core.transition(new MenuScreen());
-                            bgm_minigame1.setVolume(1f);
-                            bgm_minigame1.stop();
+                            bgm_minigame3.stop();
                         })));
                     }
                 }
@@ -139,9 +136,9 @@ public class GameHighScreen extends JamScreen {
         label = new Label("Loading menu", skin);
         stack.add(label);
         
-        bgm_minigame1.setLooping(true);
-        bgm_minigame1.setVolume(.2f);
-        bgm_minigame1.play();
+        bgm_minigame3.setLooping(true);
+        bgm_minigame3.setVolume(.3f);
+        bgm_minigame3.play();
     }
     
     private void enterNumber(int number) {

@@ -69,6 +69,8 @@ public class Resources {
 
     public static Music bgm_minigame5;
 
+    public static Music bgm_minigame6;
+
     public static Music bgm_war;
 
     public static void loadResources(AssetManager assetManager) {
@@ -198,6 +200,7 @@ public class Resources {
         bgm_minigame3 = assetManager.get("bgm/minigame3.mp3");
         bgm_minigame4 = assetManager.get("bgm/minigame4.mp3");
         bgm_minigame5 = assetManager.get("bgm/minigame5.mp3");
+        bgm_minigame6 = assetManager.get("bgm/minigame6.mp3");
         bgm_war = assetManager.get("bgm/war.mp3");
     }
 
